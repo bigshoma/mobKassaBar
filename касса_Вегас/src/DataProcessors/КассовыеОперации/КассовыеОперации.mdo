@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10dfd8ab-4ddb-4fa1-84c0-6deccbfe6257">
+  <producedTypes>
+    <objectType typeId="9a92bc6d-ff2f-44e7-bb2b-64767e6d299a" valueTypeId="c9b80c62-e2c5-465f-bb4f-202bea84f173"/>
+    <managerType typeId="06ad7fe6-f8d8-4d7d-b7d4-72743fbfb885" valueTypeId="dfad1cc2-ab6a-457c-9d91-7ee6418b81fb"/>
+  </producedTypes>
+  <name>КассовыеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовые операции</value>
+  </synonym>
+  <defaultForm>DataProcessor.КассовыеОперации.Form.СлужебныеОперации</defaultForm>
+  <forms uuid="5bbd392e-6844-41ee-a81f-d254cbb5798f">
+    <name>ЗакрытиеСмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытие смены</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71268631-d483-477b-8602-1fd6db2c7408">
+    <name>ОткрытиеСмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие смены</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa053d79-6bd7-4e4f-adf9-62d77302b6bf">
+    <name>ОтчетБезГашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет без гашения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a27c84e0-8b34-470c-96a4-2c781c93a1f8">
+    <name>ОтчетОТекущемСостоянииРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о текущем состоянии расчетов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0ac89ed2-9036-44d3-af4c-52c826e27af9">
+    <name>ПараметрыККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры ККТ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e5ab1ef-81b2-4a49-9c2d-b6b4bbd6d722">
+    <name>Пречек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пречек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a6212bdd-a058-4fa0-9c07-077b2941b4e2">
+    <name>СлужебныеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебные операции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50916680-1620-4b44-9680-cf358f58151b">
+    <name>СостояниеККТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние ККТ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

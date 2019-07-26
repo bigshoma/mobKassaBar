@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d7401dc-2bfc-4249-82a3-4b422d6b59af">
+  <producedTypes>
+    <managerType typeId="492fe056-4796-4942-8d38-e297381a86ce" valueTypeId="82245bce-a45a-4cd0-be3d-1dacc034d864"/>
+    <valueManagerType typeId="78a6ac6b-c0c5-4d44-8e7a-2201267bc2a6" valueTypeId="c33971a2-ca08-4ef8-9756-e65f38d35e3f"/>
+    <valueKeyType typeId="5635151c-1e93-5913-a5cf-a1a291128925" valueTypeId="98ccb6ee-c934-5c88-96fd-0b1154650f55"/>
+  </producedTypes>
+  <name>СуммаОстаткаВКассе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма остатка в кассе</value>
+  </synonym>
+  <comment>Mаксимальная сумма остатка в кассе, при закрытии смены</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

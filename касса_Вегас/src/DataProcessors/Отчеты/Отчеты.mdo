@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45992b41-d962-456f-9a77-ad26d2ad8e4d">
+  <producedTypes>
+    <objectType typeId="6c2f567e-fd89-4ecd-b9d7-66f2ad3579fc" valueTypeId="0e10f8c4-8f4e-4937-91f5-cc6ff4dd2564"/>
+    <managerType typeId="1c1da697-d74f-48df-a6f9-397a9c065e80" valueTypeId="661ee574-f3a2-4446-8cc7-46cfa9d5b210"/>
+  </producedTypes>
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <forms uuid="56c98ecc-54c6-4e47-a08a-610de3b07308">
+    <name>ЖурналПродажиАлкогольнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал продажи алкогольной продукции</value>
+    </synonym>
+    <comment>Журнал учета объема розничной продажи алкогольной и спиртосодержащей продукции</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9965fc40-6e6b-40e5-9b64-962007a9920d">
+    <name>ОтчетПоГеолокацииЧеков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по геолокации чеков</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d6b5430-9e3f-471c-8f88-5faa88cb21a0">
+    <name>ОтчетПоКассовойСмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по кассовой смене</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e7193af-6981-4066-b77f-dd11e6174521">
+    <name>ОтчетПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по продажам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cdfc4cd7-89f7-490c-a6c1-39ed5c2e61f0">
+    <name>ЖурналПродажиАлкогольнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал продажи алкогольной продукции</value>
+    </synonym>
+    <comment>ПФ_MXL_164</comment>
+  </templates>
+  <templates uuid="85cda6a2-ac9b-4ea1-ab12-30f06a143eee">
+    <name>ОтчетПоГеолокацииЧеков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по геолокации чеков</value>
+    </synonym>
+  </templates>
+  <templates uuid="acaec91c-cba1-407b-a2a2-4c1886fd87d0">
+    <name>ОтчетПоКассовойСмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по кассовой смене</value>
+    </synonym>
+  </templates>
+  <templates uuid="21298959-c3a9-4657-ae7c-a54e6116ed07">
+    <name>ОтчетПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по продажам</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

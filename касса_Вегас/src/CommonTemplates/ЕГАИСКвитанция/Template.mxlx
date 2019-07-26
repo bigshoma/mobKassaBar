@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;xs:schema xmlns:ns1="http://fsrar.ru/WEGAIS/Common" xmlns:tns="http://fsrar.ru/WEGAIS/Ticket" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fsrar.ru/WEGAIS/Ticket" attributeFormDefault="unqualified" elementFormDefault="qualified"&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/Common"/&gt;
+	&lt;xs:complexType name="Квитанция"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="TicketDate" type="ns1:ДатаВремя" minOccurs="0"/&gt;
+			&lt;xs:element name="Identity" type="xs:string" minOccurs="0"/&gt;
+			&lt;xs:element name="DocId" type="xs:string"/&gt;
+			&lt;xs:element name="TransportId" type="xs:string"/&gt;
+			&lt;xs:element name="RegID" type="xs:string" minOccurs="0"/&gt;
+			&lt;xs:element name="DocHash" type="xs:string" minOccurs="0"/&gt;
+			&lt;xs:element name="DocType" type="xs:string" minOccurs="0"/&gt;
+			&lt;xs:element name="Result" type="tns:Результат" minOccurs="0"/&gt;
+			&lt;xs:element name="OperationResult" type="tns:РезультатОперации" minOccurs="0"/&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:choice&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Результат"&gt;
+		&lt;xs:all&gt;
+			&lt;xs:element name="Conclusion" type="tns:СтатусКвитанции"/&gt;
+			&lt;xs:element name="ConclusionDate" type="ns1:ДатаВремя"/&gt;
+			&lt;xs:element name="Comments" type="xs:string"/&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:all&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="РезультатОперации"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="OperationName" type="xs:string"/&gt;
+			&lt;xs:element name="OperationResult" type="tns:СтатусКвитанции"/&gt;
+			&lt;xs:element name="OperationComment" type="xs:string"/&gt;
+			&lt;xs:element name="OperationDate" type="ns1:ДатаВремя" minOccurs="0"/&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:choice&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="СтатусКвитанции"&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:enumeration value="Accepted"/&gt;
+			&lt;xs:enumeration value="Rejected"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+&lt;/xs:schema&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7b34585-3b9c-4432-981f-99c3525df6f1">
+  <producedTypes>
+    <refType typeId="4acc18a9-ad81-4464-8c4e-f77c7925bf57" valueTypeId="5b7a558d-9d44-40d4-b834-22206450acac"/>
+    <listType typeId="da9935f1-9c0a-49cc-820e-a27c5f61d559" valueTypeId="26db519f-ca13-4667-a034-60c2aea40a72"/>
+    <managerType typeId="53510df8-fb91-4025-88ea-1bf8fbd017a2" valueTypeId="acb03162-ed2a-4e55-a8e5-f65a06225ad6"/>
+  </producedTypes>
+  <name>ТипыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы оплаты</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="67a0cd1e-1b90-491f-bc66-8c2313b3db1e">
+    <name>ВстречноеПредоставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встречное предоставление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d44ad79f-8154-4f88-81a2-178067241817">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c9ce3fd-5008-4f6c-a1ce-e5b757e8a156">
+    <name>ПлатежнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежная карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe8171f9-709d-4c0e-850d-737b9081b9ac">
+    <name>Постоплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca0e41cc-eb1e-45af-a548-e28db979a278">
+    <name>Предоплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

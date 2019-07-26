@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21fc90d2-96af-417a-adc0-397b2c154c19">
+  <name>Драйвер1СУстройствоВвода</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Устройство ввода</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

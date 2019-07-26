@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f868fa2-67a2-43b0-b98c-585abf681638">
+  <producedTypes>
+    <managerType typeId="99b21d75-395a-4782-9e03-98dfc53401bf" valueTypeId="ecb97bb2-c336-48c6-9366-168279d8352d"/>
+    <valueManagerType typeId="cb2e4dc2-5be9-4d07-91dd-464272446f49" valueTypeId="10699cc2-f39a-4eae-b3bb-55f044975a27"/>
+    <valueKeyType typeId="316efa1e-7610-5284-a417-61547cc03d2b" valueTypeId="89ac73dd-7a47-5a5b-8291-74d60a0d2be2"/>
+  </producedTypes>
+  <name>РезервныеКопииНаЯндексДиске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервные копии на яндекс диске</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

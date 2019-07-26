@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcf9ce8c-30f0-4b74-9419-202590424e21">
+  <producedTypes>
+    <refType typeId="bf270206-6a1f-4be3-be59-fca0b72f4883" valueTypeId="5fba34d5-7714-4ba7-b4f4-d822edf59e9e"/>
+    <listType typeId="20a82b91-7c01-491f-a2c2-e67d747e2d52" valueTypeId="c2301f08-a425-4385-8508-c119a7018a9c"/>
+    <managerType typeId="af57f70a-f1e2-43f2-8f51-59ab4ea220b4" valueTypeId="071b05b6-d52d-4837-a496-6a6252420f44"/>
+  </producedTypes>
+  <name>ТипыКоррекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы коррекции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ba8198d-edfd-4328-a521-24d954950c72">
+    <name>ПоПредписанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>По предписанию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0698a2f-9897-4043-9e1e-58ef67ea671b">
+    <name>Самостоятельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самостоятельно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

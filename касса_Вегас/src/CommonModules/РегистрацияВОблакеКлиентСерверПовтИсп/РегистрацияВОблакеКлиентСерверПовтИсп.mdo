@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c9209d3-6112-4b6e-a9f8-5a2fbf3d3091">
+  <name>РегистрацияВОблакеКлиентСерверПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке клиент сервер повт исп</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

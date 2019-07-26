@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a762a3d2-9112-4508-bb87-fd9a4a699ebe">
+  <name>КопироватьБелый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копировать белый</value>
+  </synonym>
+</mdclass:CommonPicture>

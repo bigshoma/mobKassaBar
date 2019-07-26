@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0df828e0-2bf4-4459-8b47-751d8887a932">
+  <producedTypes>
+    <managerType typeId="a9c5cf8c-9440-4899-88d1-01a3f6f99eef" valueTypeId="1cd06a21-d30a-436c-82da-5382ccf12113"/>
+    <valueManagerType typeId="fd44dac3-3755-4622-ab8a-019a042b58e0" valueTypeId="6796b244-f00f-43e0-8b59-d09702d3cb1a"/>
+    <valueKeyType typeId="f2491641-2be4-5974-a64e-77699ff3a108" valueTypeId="a76af0a4-3bf9-5cef-8127-afa0707b8a9b"/>
+  </producedTypes>
+  <name>ПечататьЭтикеткиЦенники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатать этикетки ценники</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fc2fb5c-8384-4102-ac63-3babaa87bdf5">
+  <producedTypes>
+    <managerType typeId="1956e852-9040-4482-90a4-90ee63c5887c" valueTypeId="8107ed8c-e33b-4258-bbb2-9d29c3a8bcee"/>
+    <valueManagerType typeId="4375d28c-8775-414b-80b8-b57f22b56e05" valueTypeId="54ec7919-a78f-4e2b-bf41-1355b0d7bc33"/>
+    <valueKeyType typeId="563ea3f7-6730-5b64-b433-fcc3955cbc7f" valueTypeId="9469abb5-3838-52f5-8950-e276cbb86444"/>
+  </producedTypes>
+  <name>КаталогЯндексРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог яндекс резервного копирования</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85f83fa3-b473-4a9a-a60e-ac68bb185798">
+  <producedTypes>
+    <managerType typeId="26d980e8-0f95-4781-a99d-eceb759710da" valueTypeId="a079c227-f9e0-417c-a1d1-c11f604d33e1"/>
+    <valueManagerType typeId="0acebbd0-aa04-4df3-96ce-4138558aa6ab" valueTypeId="f39337c5-7fb1-4828-8fbd-cd5c74e8b545"/>
+    <valueKeyType typeId="d342102b-4c92-5d44-b812-9ebb3b589eab" valueTypeId="fa43ae28-3b19-5e1a-ae1c-a573caf5d570"/>
+  </producedTypes>
+  <name>ИмяФайлаОтчетаОПродажах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя файла отчета о продажах</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

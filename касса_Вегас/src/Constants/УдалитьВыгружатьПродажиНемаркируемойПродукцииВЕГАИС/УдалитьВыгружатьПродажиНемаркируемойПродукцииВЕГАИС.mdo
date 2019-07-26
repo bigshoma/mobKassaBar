@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4faa1a65-a149-432c-95e0-9d20d8adc713">
+  <producedTypes>
+    <managerType typeId="46fa658c-2d2f-45f5-8ba0-778f30a185b7" valueTypeId="2722fd4c-cbb1-4972-8601-6d468ff9a1ff"/>
+    <valueManagerType typeId="ff58f314-06a3-4eb4-ab8a-d9dc962fe9eb" valueTypeId="d66fa8e3-a3d8-4e64-87c8-544f710bebf9"/>
+    <valueKeyType typeId="71bceba7-8ccc-5eb4-aa6a-f41c1edc67e2" valueTypeId="8c0b7f5e-ac93-581b-bd81-006f28deb58e"/>
+  </producedTypes>
+  <name>УдалитьВыгружатьПродажиНемаркируемойПродукцииВЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгружать продажи немаркируемой продукции в ЕГАИС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

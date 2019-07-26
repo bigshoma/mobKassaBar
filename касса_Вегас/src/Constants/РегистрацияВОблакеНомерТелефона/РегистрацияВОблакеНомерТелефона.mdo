@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73119181-74f9-45e0-adc4-c25a8f1ca3c4">
+  <producedTypes>
+    <managerType typeId="3c5f8c98-3a68-46a6-9dad-10c80e4f20d8" valueTypeId="211f8dd4-49a2-495d-9e31-11208009ad66"/>
+    <valueManagerType typeId="5b7a432f-2dbe-4e4d-8828-84b6a8ccd070" valueTypeId="ef851e78-5967-4c50-b574-da9eedaff41d"/>
+    <valueKeyType typeId="fdf7999e-9725-5df6-9c39-252fdd829da4" valueTypeId="eb39628a-863d-5de5-b3e3-484c543adc01"/>
+  </producedTypes>
+  <name>РегистрацияВОблакеНомерТелефона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке номер телефона</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

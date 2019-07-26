@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de8320e9-b8bd-4a1a-bd72-a8d878ad1271">
+  <name>ФискальныйРегистратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фискальный регистратор</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonTemplate.Драйвер1СДрайверFPrint11</content>
+  <content>4bd940ea-08bb-4cb4-ad07-3d0da209011c</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

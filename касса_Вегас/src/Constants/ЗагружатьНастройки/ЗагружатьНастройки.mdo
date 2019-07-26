@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94f430f1-2d96-4e4f-a4bd-40172a0eb768">
+  <producedTypes>
+    <managerType typeId="ce44f258-6744-40d2-b73d-dbfbfd8a2250" valueTypeId="a61543e8-e4f8-4a5d-ae44-b2071d8dd07d"/>
+    <valueManagerType typeId="7a5b94e3-8a86-4357-87f8-b195604ca44c" valueTypeId="0f60e7d0-4f61-4c72-934a-e726818f0411"/>
+    <valueKeyType typeId="1d071287-26da-5693-817a-3cd5f7050440" valueTypeId="b36b71c1-8a31-55ad-b71e-cd59853731d4"/>
+  </producedTypes>
+  <name>ЗагружатьНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загружать настройки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

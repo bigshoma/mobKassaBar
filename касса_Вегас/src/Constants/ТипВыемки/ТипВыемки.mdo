@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43dcae5d-60bc-40b4-9cde-f82fec0e5be5">
+  <producedTypes>
+    <managerType typeId="d6734f46-2f35-47b6-b67d-b959bd31d70b" valueTypeId="9da5126f-0a08-4f35-9697-9ba2ca762e69"/>
+    <valueManagerType typeId="9a476abe-0c2e-4688-880a-e1d307f0f53f" valueTypeId="4cbd18a1-9634-48e3-9981-e0dc16cabe63"/>
+    <valueKeyType typeId="86b5e13f-5363-5010-9968-ba10d7a8b43b" valueTypeId="7db107d3-cc30-5a73-8213-dcb916d2f252"/>
+  </producedTypes>
+  <name>ТипВыемки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип выемки</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыВыемки</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

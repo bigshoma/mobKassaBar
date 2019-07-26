@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e42b46fb-e941-4fe2-bca2-6988c12866c8">
+  <producedTypes>
+    <refType typeId="8bba909e-15b3-4dff-affc-e152a53db6c0" valueTypeId="7ffa5835-b2b3-453c-8eb1-e8b5637f8834"/>
+    <listType typeId="efe8c908-9db0-4d4c-a61e-72c6d8abe63e" valueTypeId="f73db624-4d59-4af8-b8db-4c9c2b4607f7"/>
+    <managerType typeId="1e99a326-922e-4167-aeec-915917a9bca5" valueTypeId="0f2e455a-5138-42e0-975d-3734a745f878"/>
+  </producedTypes>
+  <name>ПризнакиАгента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки агента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="352caf23-5370-4db0-a0c6-79a82ca968a1">
+    <name>БанковскийПлатежныйАгент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский платежный агент</value>
+    </synonym>
+    <comment>Оказание услуг покупателю (клиенту) пользователем, являющимся банковским платежным агентом</comment>
+  </enumValues>
+  <enumValues uuid="1d22eb1f-cd18-401c-a7ef-dd61549d414a">
+    <name>БанковскийПлатежныйСубагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский платежный субагент</value>
+    </synonym>
+    <comment>Оказание услуг покупателю (клиенту) пользователем, являющимся банковским платежным субагентом</comment>
+  </enumValues>
+  <enumValues uuid="83b79db7-15fd-4539-bbb6-0ae3941e0865">
+    <name>ПлатежныйАгент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежный агент</value>
+    </synonym>
+    <comment>Оказание услуг покупателю (клиенту) пользователем, являющимся платежным агентом</comment>
+  </enumValues>
+  <enumValues uuid="eb4b8eef-07bc-4e75-bc41-7c544e7560d0">
+    <name>ПлатежныйСубагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежный субагент</value>
+    </synonym>
+    <comment>Оказание услуг покупателю (клиенту) пользователем, являющимся платежным субагентом</comment>
+  </enumValues>
+  <enumValues uuid="0b71fff3-6470-491a-8039-92b8b42d1491">
+    <name>Поверенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поверенный</value>
+    </synonym>
+    <comment>Осуществление расчета с покупателем (клиентом) пользователем, являющимся поверенным</comment>
+  </enumValues>
+  <enumValues uuid="28576197-f275-4c4b-aa4d-3eee430f9708">
+    <name>Комиссионер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссионер</value>
+    </synonym>
+    <comment>Осуществление расчета с покупателем (клиентом) пользователем, являющимся комиссионером</comment>
+  </enumValues>
+  <enumValues uuid="4c1d5bf0-dcea-4cc1-95c7-e07ad72ee4b7">
+    <name>Агент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агент</value>
+    </synonym>
+    <comment>Осуществление расчета с покупателем (клиентом) пользователем, являющимся агентом и не являющимся банковским платежным агентом (субагентом), платежным агентом (субагентом), поверенным, комиссионером</comment>
+  </enumValues>
+</mdclass:Enum>

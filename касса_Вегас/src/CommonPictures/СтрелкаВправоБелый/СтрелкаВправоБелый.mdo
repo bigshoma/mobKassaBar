@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90c4ea19-3085-4f36-ae3e-d6bfcecedc31">
+  <name>СтрелкаВправоБелый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стрелка вправо белый</value>
+  </synonym>
+</mdclass:CommonPicture>

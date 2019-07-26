@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14307a0a-138f-4490-9c40-da518593cfb7">
+  <producedTypes>
+    <refType typeId="72f9ae18-ece9-4a13-9391-80892e91e2fc" valueTypeId="ae37c41b-d861-4b16-8aea-8d0eec034a04"/>
+    <listType typeId="f80e081f-becb-414b-9d92-b61b680b161f" valueTypeId="731e1df2-01b0-445f-ba6c-74eec35c1fbd"/>
+    <managerType typeId="811a98c2-b33e-4221-a048-eaad657b82a0" valueTypeId="ea555b02-f8d4-40de-a3af-1212c31ddc08"/>
+  </producedTypes>
+  <name>ТипыУстройствСканирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы устройств сканирования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="54bfda75-735d-4e36-a298-8748fb7c8b40">
+    <name>ВстроеннаяКамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенная камера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6640f0e1-48f1-40f7-810c-befaca3812d0">
+    <name>ВнешнийСканерШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний сканер штрихкодов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a838f341-ea2c-4442-9a80-6bd6bd2d5889">
+  <producedTypes>
+    <managerType typeId="fd9acad4-4c3d-4bcc-95c1-8ef76830911e" valueTypeId="f9b68b8b-4964-4110-91bb-1c8f48d45c2c"/>
+    <valueManagerType typeId="59e19ccd-9d7c-4cdc-bbd4-909e346ab622" valueTypeId="9b34476e-afc0-4e9c-bdb2-a41ead11bce0"/>
+    <valueKeyType typeId="8cd5dc7b-3cd6-5394-9aa9-e82e0024c845" valueTypeId="47747d75-f033-59ad-8dc9-9bf9e86ae684"/>
+  </producedTypes>
+  <name>ИспользоватьУчетПоКассирам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет по кассирам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

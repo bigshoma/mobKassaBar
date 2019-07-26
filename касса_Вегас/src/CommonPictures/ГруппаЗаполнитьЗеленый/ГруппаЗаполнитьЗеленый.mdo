@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caa88e52-8640-4f0a-947f-8b7352af5a14">
+  <name>ГруппаЗаполнитьЗеленый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа заполнить зеленый</value>
+  </synonym>
+</mdclass:CommonPicture>

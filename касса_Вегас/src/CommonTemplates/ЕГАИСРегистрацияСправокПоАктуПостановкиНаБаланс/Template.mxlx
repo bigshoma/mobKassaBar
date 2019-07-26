@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;xs:schema xmlns:ns1="http://fsrar.ru/WEGAIS/Common" xmlns:ns2="http://fsrar.ru/WEGAIS/ProductRef" xmlns:tns="http://fsrar.ru/WEGAIS/ActInventoryInformBReg" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fsrar.ru/WEGAIS/ActInventoryInformBReg" attributeFormDefault="unqualified" elementFormDefault="qualified"&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/Common"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ProductRef"/&gt;
+	&lt;xs:complexType name="РегистрацияСправок"&gt;
+		&lt;xs:all&gt;
+			&lt;xs:element name="Header" type="tns:Шапка"/&gt;
+			&lt;xs:element name="Content" type="tns:Содержимое"/&gt;
+		&lt;/xs:all&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Содержимое"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Position" type="tns:СодержимоеЭлемент" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="СодержимоеЭлемент"&gt;
+		&lt;xs:all&gt;
+			&lt;xs:element name="Identity" type="ns1:Идентификатор"/&gt;
+			&lt;xs:element name="InformARegId" type="ns1:Строка50"/&gt;
+			&lt;xs:element name="InformB" type="tns:СправкаБ"/&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:all&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="СправкаБ"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="InformBItem" type="tns:СправкаБЭлемент" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="СправкаБЭлемент"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="Identity" type="ns1:Идентификатор"/&gt;
+			&lt;xs:element name="BRegId" type="ns1:Строка50"/&gt;
+			&lt;xs:element name="MarkInfo" type="ns2:Маркировка" minOccurs="0"/&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:choice&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Шапка"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="Identity" type="ns1:Идентификатор" minOccurs="0"/&gt;
+			&lt;xs:element name="ActRegId" type="ns1:Строка50"/&gt;
+			&lt;xs:element name="Number" type="ns1:Строка50"/&gt;
+		&lt;/xs:choice&gt;
+	&lt;/xs:complexType&gt;
+&lt;/xs:schema&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>

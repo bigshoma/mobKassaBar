@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22dccc9c-474e-4014-9a10-8e71860dac17">
+  <name>ПодключаемоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>Catalog.ДрайверыОборудования</content>
+  <content>CommonForm.ФормаНастройкиУниверсальныйДрайвер</content>
+  <content>CommonModule.МенеджерОборудованияИнтеграционноеПриложениеКлиент</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиент</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервера</content>
+  <content>Enum.ТипыПодключаемогоОборудования</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияВнешняяКомпонентаКлиент</content>
+  <content>Enum.ТипыРасчетаДенежнымиСредствами</content>
+  <content>Catalog.РабочиеМеста</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБПО</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСервер</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПовтИсп</content>
+  <content>Enum.ТипыМаркировкиККТ</content>
+  <content>Enum.ПризнакиАгента</content>
+  <content>Enum.ПризнакиПредметаРасчета</content>
+  <content>Enum.ПризнакиСпособаРасчета</content>
+  <content>Enum.СпособыФорматноЛогическогоКонтроля</content>
+  <content>Enum.ТипыОплатыККТ</content>
+  <content>Enum.ТипыСистемНалогообложенияККТ</content>
+  <content>Enum.ПричиныИзмененияСведенийККТ</content>
+  <content>Enum.ПричиныПеререгистрацииФН</content>
+  <content>CommonModule.МенеджерОборудованияМаркировкаКлиентСерверПовтИсп</content>
+  <content>CommonModule.МенеджерОборудованияМаркировкаКлиентСервер</content>
+  <content>Enum.ТипыФискальныхДокументовККТ</content>
+  <content>3c1c25ab-8458-4f2b-8485-6471eb235795</content>
+  <content>4e20e7bb-9585-422c-9ccf-8f17adff0487</content>
+  <content>85523518-1577-4ea0-842b-9327ba87b7a1</content>
+  <content>484eb10d-1598-424e-b6d1-4688539f5ca1</content>
+  <content>02c99164-4aee-4e5b-babf-dd0fef6b9211</content>
+  <subsystems>УстройствоВвода</subsystems>
+  <subsystems>ККТ</subsystems>
+  <subsystems>ФискальныйРегистратор</subsystems>
+  <subsystems>ПринтерЧеков</subsystems>
+  <subsystems>ПлатежнаяСистема</subsystems>
+  <subsystems>ДисплеиПокупателя</subsystems>
+  <subsystems>ЭлектронныеВесы</subsystems>
+  <subsystems>ФорматноЛогическийКонтроль</subsystems>
+</mdclass:Subsystem>

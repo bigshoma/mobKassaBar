@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ea2bd61-6322-4d39-989c-012bf21faf5f">
+  <producedTypes>
+    <managerType typeId="2fc7677f-537f-476a-af4c-142321bae842" valueTypeId="6485aafd-ec77-457a-a9ff-cdc312a2faf1"/>
+    <valueManagerType typeId="24036371-e479-4518-aada-43cc1d5b5313" valueTypeId="3980357d-5ded-40c4-bf7a-996d8133817b"/>
+    <valueKeyType typeId="5d666ccf-9dc5-5a8e-9ce5-5e2cc3ab576c" valueTypeId="38ec694f-e4e4-57d1-8bd9-34b3dffee565"/>
+  </producedTypes>
+  <name>ИспользоватьАлкогольнуюПродукцию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать алкогольную продукцию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

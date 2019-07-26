@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbae87ad-5197-41aa-a8a4-027004a85cf6">
+  <producedTypes>
+    <refType typeId="e3de09a3-f208-42ee-bdfc-d461f9936933" valueTypeId="16768c6a-951c-4af2-9866-4c943a0bddd2"/>
+    <listType typeId="f2b7d4da-a788-466d-83d6-e497cdf29785" valueTypeId="5daed9c7-57f1-4a34-89ff-21d22c88bd5b"/>
+    <managerType typeId="929b5617-3ef6-48c3-8352-984bbfd13341" valueTypeId="e871aa1a-05bb-4989-948c-3cfe2a619066"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Список ставок налога на добавленную стоимость.</value>
+  </explanation>
+  <enumValues uuid="2416cd46-98ef-4527-9fb5-607fa60a54e0">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a0b6f1c-4265-4168-9956-476483d3d33e">
+    <name>НДС0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34a9e331-88dd-460d-bd75-d7ed291b9510">
+    <name>НДС10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7400fc94-b419-4e01-80be-35f01127fcba">
+    <name>НДС10_110</name>
+    <synonym>
+      <key>ru</key>
+      <value>10% / 110%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecf431e4-313c-48b5-9973-3bd0ce07b2e3">
+    <name>НДС18</name>
+    <synonym>
+      <key>ru</key>
+      <value>18%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfe7c38f-865d-44b5-969d-a170a6368e3a">
+    <name>НДС18_118</name>
+    <synonym>
+      <key>ru</key>
+      <value>18% / 118%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4303b6b8-9bcd-4ade-89d3-e6170a165372">
+    <name>НДС20</name>
+    <synonym>
+      <key>ru</key>
+      <value>20%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f00dc724-6e73-4a45-bd55-00dda68e3748">
+    <name>НДС20_120</name>
+    <synonym>
+      <key>ru</key>
+      <value>20% / 120%</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4ff2f0f-b1f0-4aef-9680-ffc358cbc99b">
+  <producedTypes>
+    <managerType typeId="9874d4f9-1708-4615-9e0e-d49167ce5812" valueTypeId="b2376a5e-f946-49e5-abf0-c2b919e77c4d"/>
+    <valueManagerType typeId="7f8d9665-b65e-40a1-b45c-5707f62e25c1" valueTypeId="57d92e08-3a76-4cf6-8ad1-3c0a250db8bb"/>
+    <valueKeyType typeId="1d003730-d77a-535a-8232-5dbe8110bd70" valueTypeId="22a6bba6-984f-5301-9101-601ba21b4e71"/>
+  </producedTypes>
+  <name>ВысотаПоляНаименованиеТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Высота поля наименование товара</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;xs:schema xmlns:ns1="http://fsrar.ru/WEGAIS/ClientRef" xmlns:ns2="http://fsrar.ru/WEGAIS/Common" xmlns:tns="http://fsrar.ru/WEGAIS/ProductRef" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fsrar.ru/WEGAIS/ProductRef" attributeFormDefault="unqualified" elementFormDefault="qualified"&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ClientRef"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/Common"/&gt;
+	&lt;xs:complexType name="АлкогольнаяПродукция"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="Identity" type="ns2:Идентификатор" minOccurs="0"/&gt;
+			&lt;xs:element name="Type" type="tns:ТипАП" minOccurs="0"/&gt;
+			&lt;xs:element name="FullName"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="ShortName" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="64"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="AlcCode"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="ns2:Строка"&gt;
+						&lt;xs:maxLength value="64"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="Capacity" type="ns2:ЧислоПоложительное" minOccurs="0"/&gt;
+			&lt;xs:element name="AlcVolume" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:decimal"&gt;
+						&lt;xs:minInclusive value="0"/&gt;
+						&lt;xs:maxInclusive value="100"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="Producer" type="ns1:Организация" minOccurs="0"/&gt;
+			&lt;xs:element name="Importer" type="ns1:Организация" minOccurs="0"/&gt;
+			&lt;xs:element name="ProductVCode"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="ns2:Строка"&gt;
+						&lt;xs:maxLength value="5"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:choice&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="ГраницаДиапазона"&gt;
+		&lt;xs:restriction&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"/&gt;
+			&lt;/xs:simpleType&gt;
+			&lt;xs:minLength value="1"/&gt;
+			&lt;xs:maxLength value="9"/&gt;
+			&lt;xs:pattern value="([0-9])*"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="ДиапазоныНомеров"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Range" type="tns:ДиапазоныНомеровЭлемент" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ДиапазоныНомеровЭлемент"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Identity" type="xs:string" minOccurs="0"/&gt;
+			&lt;xs:element name="Rank" type="tns:Серия"/&gt;
+			&lt;xs:element name="Start" type="tns:ГраницаДиапазона"/&gt;
+			&lt;xs:element name="Last" type="tns:ГраницаДиапазона"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Маркировка"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Type" type="ns2:Строка50"/&gt;
+			&lt;xs:element name="Ranges" type="tns:ДиапазоныНомеров"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="Серия"&gt;
+		&lt;xs:restriction&gt;
+			&lt;xs:simpleType&gt;
+				&lt;xs:restriction base="xs:string"/&gt;
+			&lt;/xs:simpleType&gt;
+			&lt;xs:length value="3"/&gt;
+			&lt;xs:pattern value="[0-9]{3}"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="СправкаА"&gt;
+		&lt;xs:all&gt;
+			&lt;xs:element name="RegId" type="ns2:Строка50"/&gt;
+		&lt;/xs:all&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="СправкаБ"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="InformBItem" type="tns:СправкаБЭлемент"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="СправкаБЭлемент"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="BRegId" type="ns2:Строка50"/&gt;
+			&lt;xs:element name="MarkInfo" type="tns:Маркировка" minOccurs="0"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="ТипАП"&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:enumeration value="АП"/&gt;
+			&lt;xs:enumeration value="ССП"/&gt;
+			&lt;xs:enumeration value="ССНП"/&gt;
+			&lt;xs:enumeration value="Спирт"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+&lt;/xs:schema&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>

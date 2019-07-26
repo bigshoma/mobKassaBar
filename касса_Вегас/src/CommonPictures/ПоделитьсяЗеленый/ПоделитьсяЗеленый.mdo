@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14f2755d-9a75-4b61-9987-9b78b61457c3">
+  <name>ПоделитьсяЗеленый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поделиться зеленый</value>
+  </synonym>
+</mdclass:CommonPicture>

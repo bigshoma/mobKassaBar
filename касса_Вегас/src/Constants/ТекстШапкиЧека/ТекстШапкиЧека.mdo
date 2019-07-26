@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5011cb0-cd21-4b06-b100-084918f66c45">
+  <producedTypes>
+    <managerType typeId="1ebc56a4-ea98-4b23-9975-c62d3d0d056b" valueTypeId="38b22d67-b3e7-4f31-babc-4d6c01042705"/>
+    <valueManagerType typeId="f6a8f30d-1337-4492-a336-b682c22b5a68" valueTypeId="ad9960b7-3dc8-4389-b116-005ead5d022b"/>
+    <valueKeyType typeId="fbb8966e-45b8-5cf8-bf9a-edcef3050047" valueTypeId="18a43cfc-2ab0-559c-923d-6ec445618e5a"/>
+  </producedTypes>
+  <name>ТекстШапкиЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст шапки чека</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

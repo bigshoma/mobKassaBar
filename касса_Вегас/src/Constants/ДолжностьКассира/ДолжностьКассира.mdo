@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbe1b3a0-d9f1-4654-ad95-e79351a6710b">
+  <producedTypes>
+    <managerType typeId="3ea09eba-649e-4357-8da9-9693f237c086" valueTypeId="115783e1-25b4-42cf-9141-767be7a6bc70"/>
+    <valueManagerType typeId="9fa72c2d-332a-4be1-92b5-5e91c24ca0ac" valueTypeId="dcf8da76-58e9-45c8-b932-1900ea305f51"/>
+    <valueKeyType typeId="fd96a565-39d6-53da-b6a2-6485dce735ff" valueTypeId="9fe1f43e-162a-5d52-bbfd-4c993200b3f1"/>
+  </producedTypes>
+  <name>ДолжностьКассира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность кассира</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

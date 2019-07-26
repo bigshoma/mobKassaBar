@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cefa9801-6de8-4776-be50-80bda2c05799">
+  <name>РаботаСПочтойКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с почтой клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

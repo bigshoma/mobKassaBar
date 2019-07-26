@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e01977c-c65a-493a-af48-298decc8a345">
+  <producedTypes>
+    <managerType typeId="ae688cf9-1644-44fe-ad62-381dfe9cf277" valueTypeId="e797f052-1544-4135-9910-46b260aff51f"/>
+    <valueManagerType typeId="46ef5ced-9ccf-4e2b-b9f5-335698e498c8" valueTypeId="d63ad71f-d061-4e40-8374-c601f06ad48d"/>
+    <valueKeyType typeId="7b76d3a7-6a6e-55d1-bf3f-92b03261dcc9" valueTypeId="83d92426-269a-5e25-b411-9b9d4d25f532"/>
+  </producedTypes>
+  <name>РегистрацияВОблакеСтатус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке статус</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СтатусыРегистрацииВОблаке</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

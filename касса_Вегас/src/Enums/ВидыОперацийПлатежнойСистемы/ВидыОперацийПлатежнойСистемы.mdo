@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced37134-2db4-4396-8569-70e9e90f9d5f">
+  <producedTypes>
+    <refType typeId="9a52239a-2080-4b92-99ff-d68af9ac9647" valueTypeId="094c4c26-900f-435f-86fe-f8a641accd1b"/>
+    <listType typeId="b1dc642a-eea1-460e-b0f5-0c88823e1f10" valueTypeId="438c45ea-0fc8-4861-aa67-bd7e76ce5b44"/>
+    <managerType typeId="921531bf-885b-4d8c-bc60-c0bc03d0948f" valueTypeId="7fa1344e-4fc4-40a0-8845-467ab90ed571"/>
+  </producedTypes>
+  <name>ВидыОперацийПлатежнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций платежной системы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="13aa6e98-b655-4202-a726-280591b9a9b9">
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3e65b2d-a08c-416a-9069-c4e9ff0e4d5e">
+    <name>ВозвратОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a71248f-feef-4d86-8370-953f87a98c58">
+    <name>ОтменаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена оплаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

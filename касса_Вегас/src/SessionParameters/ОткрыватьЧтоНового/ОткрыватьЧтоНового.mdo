@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d23ba32f-7963-468a-8c3d-6f553c28afbc">
+  <name>ОткрыватьЧтоНового</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открывать что нового</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

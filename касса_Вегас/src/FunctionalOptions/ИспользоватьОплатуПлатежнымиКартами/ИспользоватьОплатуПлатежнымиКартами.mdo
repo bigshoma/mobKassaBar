@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af2acd9d-716d-415e-9314-1a2de3b1f2d8">
+  <name>ИспользоватьОплатуПлатежнымиКартами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату платежными картами</value>
+  </synonym>
+  <location>Constant.ИспользоватьОплатуПлатежнымиКартами</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

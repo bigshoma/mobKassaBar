@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="139d2dab-5cbf-4888-8a7a-434e9fb5b488">
+  <producedTypes>
+    <managerType typeId="741aad9e-2187-42a6-bad9-d2d12d688d31" valueTypeId="57bc5b89-bee9-44d3-ae74-97167055971c"/>
+    <valueManagerType typeId="3c610b3e-bcca-42d5-9a45-520c2376ab54" valueTypeId="c0ebf50c-3845-4329-a4cb-9df5e1565f20"/>
+    <valueKeyType typeId="ffc218ea-4cf0-54a9-8acd-ae3d925b945e" valueTypeId="e2f72552-365e-53f1-8376-69914271f2cb"/>
+  </producedTypes>
+  <name>ШаблонВыводаНаименованияТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон вывода наименования товара</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ШаблоныВыводаНаименованияТовара</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

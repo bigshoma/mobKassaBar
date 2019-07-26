@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f259f61-0091-496f-8679-de24e835328e">
+  <producedTypes>
+    <managerType typeId="92cbccc9-61f1-4eb3-abad-9a300c41914d" valueTypeId="81303372-eaf1-41e7-b6fb-cec5062bdaf9"/>
+    <valueManagerType typeId="0f3b9a9a-b146-4366-a28a-45d1e480624d" valueTypeId="1cc924d0-849e-4613-8402-71bfd63b3d3f"/>
+    <valueKeyType typeId="92856175-ea02-51a2-9216-a4aadaf85dd7" valueTypeId="a21ae886-af92-5ce9-ae35-0784a2f687f9"/>
+  </producedTypes>
+  <name>ПечататьШтрихкодНаЧеке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатать штрихкод на чеке</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

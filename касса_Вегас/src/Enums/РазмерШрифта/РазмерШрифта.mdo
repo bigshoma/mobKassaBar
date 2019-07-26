@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdf9fc0f-1e43-44b9-8a9b-8da564354cf8">
+  <producedTypes>
+    <refType typeId="076c07c2-433a-4c55-9829-372666ac18c7" valueTypeId="435d9e3b-b7ac-4fbd-a2f6-efd7b357c21f"/>
+    <listType typeId="dc310785-1d6a-4b70-ad00-80cb9fe762d3" valueTypeId="6d1ff1ff-6e23-45b8-a8cb-9d1c08d21e44"/>
+    <managerType typeId="e36d6712-f7c4-4c02-8acd-15c601de80e6" valueTypeId="ce9804f4-d891-4336-808a-219be4a2800e"/>
+  </producedTypes>
+  <name>РазмерШрифта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер шрифта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="122805da-d34a-40b9-ad94-35782453b7c5">
+    <name>Мелкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мелкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c25a1d4-f78e-4275-b9f0-4395371be62f">
+    <name>Крупный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крупный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6283aee5-ef44-4cea-ad1f-251c4e766298">
+    <name>ОченьКрупный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очень крупный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

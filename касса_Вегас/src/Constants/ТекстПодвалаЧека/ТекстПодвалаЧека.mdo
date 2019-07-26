@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70b952c7-6645-4aeb-9c13-c32d4e1aad10">
+  <producedTypes>
+    <managerType typeId="80fb6fe6-4a72-45d4-aed7-64d5953d72e2" valueTypeId="ef43e370-82ee-4e3c-9f3c-ee3d0a5045d4"/>
+    <valueManagerType typeId="7d438a68-b90c-444c-bdb3-cbf8a90b6c43" valueTypeId="baa0f6cb-a4b6-45f6-af07-930f4d69e154"/>
+    <valueKeyType typeId="491c044f-1911-52fc-982d-1248dc1a2483" valueTypeId="44ebf53c-7470-581b-926a-5fef78368f5e"/>
+  </producedTypes>
+  <name>ТекстПодвалаЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст подвала чека</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

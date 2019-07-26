@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e492cda-fb93-4e8e-9d0c-5d4de5d370ba">
+  <name>ЕГАИСТТН</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕГАИС ТТН</value>
+  </synonym>
+</mdclass:CommonTemplate>

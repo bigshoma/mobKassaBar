@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ae54d03-fc85-472f-a686-a2c4cf1472bd">
+  <name>ОтступПрозрачный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отступ прозрачный</value>
+  </synonym>
+</mdclass:CommonPicture>

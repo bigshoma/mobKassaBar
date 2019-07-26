@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84cee383-ac92-40b8-be70-a4ebc90d08b9">
+  <producedTypes>
+    <objectType typeId="979d4b9b-476f-431e-89c6-844233ad3a2e" valueTypeId="3d45431d-4e16-4e2b-9e04-bf622913fb00"/>
+    <refType typeId="4174973a-d71c-4203-938a-bd53f25f81f6" valueTypeId="10d1d27e-8fef-4b7a-991e-35cc17a16604"/>
+    <selectionType typeId="e88c0286-6a9c-444a-b67f-6310c31cb0b0" valueTypeId="015266a6-bc44-4313-b0be-dc8bdfff234f"/>
+    <listType typeId="d402b5b6-fcdf-40f2-8f39-a442193f5ec7" valueTypeId="82a800c0-e7d4-430a-a939-8c966edb0c50"/>
+    <managerType typeId="049d75f1-31d8-47aa-becc-90532d5fae05" valueTypeId="660844a3-9ee8-434d-9c17-0a4e435f86a7"/>
+  </producedTypes>
+  <name>ДанныеАгентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные агентов</value>
+  </synonym>
+  <inputByString>Catalog.ДанныеАгентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДанныеАгентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1a412a2d-24d6-49cb-a51a-6c15163f095d">
+    <name>КодПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1cae899e-5f77-405b-95ec-a1ea16b4b7ba">
+    <name>ПризнакАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак агента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПризнакиАгента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c198c873-c83e-49de-8a8d-c17c953e1106">
+    <name>ОперацияПлатежногоАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция платежного агента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>24</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Операция платежного агента. Для банковских платежных агентов (субагентов).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60d030a8-4431-45d8-872c-99b03561d926">
+    <name>ТелефонПлатежногоАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон платежного агента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер телефона платежного агента, платежного субагента, банковского платежного агента, банковского платежного субагента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce518634-387f-495a-93f4-d11b0da7099a">
+    <name>ТелефонОператораПоПриемуПлатежей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон оператора по приему платежей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефон оператора по приему платежей. При осуществлении деятельности платежного агента и платежного субагента</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fb04418-9c9f-4621-be6c-0ab37d27142a">
+    <name>ТелефонОператораПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон оператора перевода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефон оператора перевода. Для оператора по переводу денежных средств</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36d7f088-6534-40d3-8d48-618af3bc36ba">
+    <name>НаименованиеОператораПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование оператора перевода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование оператора перевода. Для банковских платежных агентов (субагентов).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="534ae562-d55b-49f7-b573-d9c06827f968">
+    <name>АдресОператораПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес оператора перевода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес оператора перевода. Для банковских платежных агентов (субагентов).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28df3456-234f-46d5-8b2d-32706e67ddea">
+    <name>ИННОператораПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН оператора перевода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>ИНН оператора перевода. Для банковских платежных агентов (субагентов).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c0628040-4415-480d-87a0-0f604a5168cf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

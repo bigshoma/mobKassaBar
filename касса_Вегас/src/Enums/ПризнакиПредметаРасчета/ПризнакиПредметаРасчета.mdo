@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7ecbc1f-970d-4544-bc2b-0ae0e13f130b">
+  <producedTypes>
+    <refType typeId="526b612b-30ea-402f-8a79-f4e293793206" valueTypeId="c4d6cdff-4372-4d06-9ec2-c401c2e93abf"/>
+    <listType typeId="9ba9e4e2-f747-4a69-97af-d4f7e3cb4c2e" valueTypeId="cb6895a3-458a-4b22-957b-557f07d14f8a"/>
+    <managerType typeId="ba8e75f1-e421-4d39-8273-936856ece0c6" valueTypeId="b39f1731-b4b6-4e2a-974b-869f96963f60"/>
+  </producedTypes>
+  <name>ПризнакиПредметаРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки предмета расчета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="83653c81-3b15-47aa-9bd9-546f2e9ac042">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <comment>Реализуемый товар, за исключением подакцизного товара</comment>
+  </enumValues>
+  <enumValues uuid="49c4f7a3-8610-4517-a5c4-890443dfbdcf">
+    <name>ПодакцизныйТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подакцизный товар</value>
+    </synonym>
+    <comment>Реализуемый подакцизный товар</comment>
+  </enumValues>
+  <enumValues uuid="66c1db9a-c6b0-4155-8f60-609469afeb79">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <comment>Выполняемая работа</comment>
+  </enumValues>
+  <enumValues uuid="856bc6e1-19cc-4f26-a498-6764d09435fe">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <comment>Оказываемая услуга</comment>
+  </enumValues>
+  <enumValues uuid="c87da414-a727-45eb-acec-3a8101872d24">
+    <name>СтавкаАзартнойИгры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка азартной игры</value>
+    </synonym>
+    <comment>Прием ставок при осуществлении деятельности по проведению азартных игр</comment>
+  </enumValues>
+  <enumValues uuid="141cf3c9-80be-426d-8dab-0ec9d5c64967">
+    <name>ВыигрышАзартнойИгры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выигрыш азартной игры</value>
+    </synonym>
+    <comment>Выплата денежных средств в виде выигрыша при осуществлении деятельности по проведению азартных игр</comment>
+  </enumValues>
+  <enumValues uuid="c13b5dcf-d68a-4fe9-8cb5-7b7fa903a23f">
+    <name>ЛотерейныйБилет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лотерейный билет</value>
+    </synonym>
+    <comment>Прием денежных средств при реализации лотерейных билетов</comment>
+  </enumValues>
+  <enumValues uuid="b5e52789-4f81-4106-8d15-1325be58939e">
+    <name>ВыигрышЛотереи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выигрыш лотереи</value>
+    </synonym>
+    <comment>Выплата денежных средств в виде выигрыша при осуществлении деятельности по проведению лотерей</comment>
+  </enumValues>
+  <enumValues uuid="faa6be65-1a28-491c-8ac0-ef91e585d8f9">
+    <name>ПредоставлениеРИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоставление РИД</value>
+    </synonym>
+    <comment>Предоставлении прав на использование результатов интеллектуальной деятельности или средств индивидуализации</comment>
+  </enumValues>
+  <enumValues uuid="32660b72-a177-42c8-8c5e-5ce2e48f075b">
+    <name>ПлатежВыплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платеж выплата</value>
+    </synonym>
+    <comment>Аванс, задаток, предоплата, кредит, взнос в счет оплаты, пени, штраф, вознаграждение, бонус и ином аналогичном предмете расчета</comment>
+  </enumValues>
+  <enumValues uuid="d5d3c1ce-f9c7-4262-bbe1-4caf1cc1d8d9">
+    <name>АгентскоеВознаграждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агентское вознаграждение</value>
+    </synonym>
+    <comment>Вознаграждение пользователя, являющегося платежным агентом (субагентом), банковским платежным агентом (субагентом), комиссионером, поверенным или иным агентом</comment>
+  </enumValues>
+  <enumValues uuid="45c5ffb5-4894-4197-9079-379d708effe9">
+    <name>СоставнойПредметРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Составной предмет расчета</value>
+    </synonym>
+    <comment>Предмет расчета, состоящем из предметов, каждому из которых может быть присвоено другие значения перечисления</comment>
+  </enumValues>
+  <enumValues uuid="1699030a-437e-4215-847a-8135bbd72fbc">
+    <name>ИнойПредметРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иной предмет расчета</value>
+    </synonym>
+    <comment>Предмет расчета,  не относящемуся к предметам расчета, которым может быть присвоено значение перечисления</comment>
+  </enumValues>
+  <enumValues uuid="ebbb525f-e315-4f09-b240-f8d93a0d8916">
+    <name>ИмущественноеПраво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имущественное право</value>
+    </synonym>
+    <comment>Передача имущественных прав</comment>
+  </enumValues>
+  <enumValues uuid="c10d0834-ef79-46e5-99a6-0974daa53428">
+    <name>ВнереализационныйДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внереализационный доход</value>
+    </synonym>
+    <comment>Внереализационный доход</comment>
+  </enumValues>
+  <enumValues uuid="a3afcfca-adeb-462f-8bfa-e84285e8ee8a">
+    <name>СтраховыеВзносы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховые взносы</value>
+    </synonym>
+    <comment>Сумма расходов, уменьшающих сумму налога (авансовых платежей) в соответствии с пунктом 3.1 статьи 346.21 Налогового кодекса РФ</comment>
+  </enumValues>
+  <enumValues uuid="0ce8b040-a42a-40cb-a382-836aa4ddb740">
+    <name>ТорговыйСбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговый сбор</value>
+    </synonym>
+    <comment>Сумма уплаченного торгового сбора</comment>
+  </enumValues>
+  <enumValues uuid="f706cf88-ae26-4492-8b5d-b4aeccec8b87">
+    <name>КурортныйСбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курортный сбор</value>
+    </synonym>
+    <comment>Курортный сбор</comment>
+  </enumValues>
+  <enumValues uuid="8d69932f-d950-4553-be3b-e5c4336f82a9">
+    <name>Залог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Залог</value>
+    </synonym>
+    <comment>Залог</comment>
+  </enumValues>
+</mdclass:Enum>

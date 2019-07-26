@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9af645a1-3c82-4362-98bf-8e6d8482a1a0">
+  <producedTypes>
+    <managerType typeId="a03c0409-cbd1-45da-a6e2-2cdd688a164a" valueTypeId="281ca797-aba1-4a6a-bb6c-9aaa84cb29a0"/>
+    <valueManagerType typeId="0da0b742-0fc9-4077-84e8-f2f99a7ea665" valueTypeId="609d3efb-5eec-4517-b000-66e717c0ca27"/>
+    <valueKeyType typeId="35fafa31-3db4-5d48-8ddb-25be72e537fb" valueTypeId="291e1856-e4a1-5ebc-8f64-078244ee8ed3"/>
+  </producedTypes>
+  <name>КПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>КПП</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>9</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

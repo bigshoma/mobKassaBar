@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28f01948-b20a-4388-b6e5-2085a4c08b97">
+  <producedTypes>
+    <objectType typeId="eac4a6e0-89fa-4a0e-8c51-8d40dbebe0d9" valueTypeId="09a25194-eb3f-4194-9f63-7f86a6f5f400"/>
+    <managerType typeId="59bf803a-9c81-4f31-adce-0f71311645ff" valueTypeId="63472f2c-88ee-4e29-a49c-5dd9ad3096f7"/>
+  </producedTypes>
+  <name>РегистрацияВОблаке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке</value>
+  </synonym>
+  <defaultForm>DataProcessor.РегистрацияВОблаке.Form.МастерРегистрацииФорма1</defaultForm>
+  <forms uuid="f1d57f6b-c291-4119-ba2c-210124d4a9ef">
+    <name>МастерРегистрацииФорма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер регистрации форма1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a88a494-7f49-4100-b5f7-366838b1b907">
+    <name>МастерРегистрацииФорма2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер регистрации форма2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50ef4075-349c-40c4-8ec8-002ded1d1ea5">
+    <name>МастерРегистрацииФорма3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер регистрации форма3</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="27438bd7-a767-4cb1-a220-5f12070121af">
+    <name>ПродолжениеРегистрацииФорма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжение регистрации форма1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56eab2f6-7407-4998-80bb-0b959d2e5622">
+    <name>ПродолжениеРегистрацииФорма2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжение регистрации форма2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a2104c2b-cdeb-44f2-85c7-d080fb580f0a">
+    <name>Подробнее1СКасса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробнее1 с касса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

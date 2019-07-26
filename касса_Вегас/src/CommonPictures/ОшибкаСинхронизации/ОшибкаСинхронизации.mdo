@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1299e0e1-a7d8-4fc3-b871-4e1ef01bdf39">
+  <name>ОшибкаСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибка синхронизации</value>
+  </synonym>
+</mdclass:CommonPicture>

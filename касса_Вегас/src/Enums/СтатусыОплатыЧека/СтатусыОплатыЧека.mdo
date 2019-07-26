@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dab05f69-4788-4f1b-88f7-91f8c7769067">
+  <producedTypes>
+    <refType typeId="cfbdd9ab-2905-455d-899d-ea05389aef5d" valueTypeId="eeffcc65-c93c-4392-b286-f787629a317f"/>
+    <listType typeId="ed243e8e-1b98-470e-ab7f-d2fdf887feae" valueTypeId="27750615-9e93-466a-93be-88ffc4e56ff5"/>
+    <managerType typeId="39f8f253-d119-4844-ad9a-b767eae78a0f" valueTypeId="1624c25c-2c12-4afb-8cf4-5f033b9e835b"/>
+  </producedTypes>
+  <name>СтатусыОплатыЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы оплаты чека</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="499d059f-ca8c-4887-8704-d3000e06e6b6">
+    <name>Оплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e714bb42-ecc3-49ed-a5a4-d7b7bcf6ffe0">
+    <name>ОплаченЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>частично оплачен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="083a3d88-91ae-467a-81f3-6f50f49faeed">
+  <producedTypes>
+    <managerType typeId="c8baf655-8c61-49a2-bea8-ff49aa9b4425" valueTypeId="eca7d7c6-5f49-4c08-8a4b-3ee7391f920b"/>
+    <valueManagerType typeId="66a08896-6647-4b8c-93ac-cf0b9746048b" valueTypeId="3d3bfbf7-a5c8-4c3e-97c6-0644acebe825"/>
+    <valueKeyType typeId="2bcd78ee-0f6f-42af-8b9c-ce31f0052735" valueTypeId="70aa26b7-4f6f-482f-855a-c3aea21d1693"/>
+  </producedTypes>
+  <name>ИспользоватьЛог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать лог</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7a23993-c004-47b8-8d5d-3e0e1b60d3af">
+  <producedTypes>
+    <managerType typeId="4de84f7b-8628-4e8b-82bd-0509210b8ce9" valueTypeId="3dd8d618-4c84-4632-ba7c-f468e68c2311"/>
+    <valueManagerType typeId="4152462b-9774-4f3e-8658-e38f174d3114" valueTypeId="ba9a8bf0-0fcd-4ffd-bbea-e6d93b8f3665"/>
+    <valueKeyType typeId="36711960-dd2d-5e91-bcb1-722459bc4bed" valueTypeId="2f650ccc-a5b1-5491-8c2f-bca1be1da488"/>
+  </producedTypes>
+  <name>НаименованиеМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименование магазина</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>128</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

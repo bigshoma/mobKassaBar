@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dff8b4a3-f85f-41e3-8891-8105e9274b0a">
+  <producedTypes>
+    <objectType typeId="ac16ac19-01c7-4d4f-9e91-25b196f88fd5" valueTypeId="026e9869-311f-44ba-98bb-075ef3e90d03"/>
+    <refType typeId="dd1135c6-5831-4a84-ad4f-3e115b419321" valueTypeId="fcf19d05-2f82-4cb6-bf42-c85b317531ad"/>
+    <selectionType typeId="26dd1f20-f948-439a-b868-af93e0636552" valueTypeId="01d398fe-52db-46f3-ab89-4e4873107e9d"/>
+    <listType typeId="c7ae806e-409a-44c3-996d-3da0406f7073" valueTypeId="92322fe9-00aa-4760-8f5a-74b04f1753b8"/>
+    <managerType typeId="5b34a4b9-e75a-4718-8511-64e53dedc37f" valueTypeId="6d46b6a0-67af-4dc0-b62d-74c83ef7de7b"/>
+  </producedTypes>
+  <name>ДрайверыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйверы оборудования</value>
+  </synonym>
+  <inputByString>Catalog.ДрайверыОборудования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование драйвера оборудования</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Драйвер оборудования</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b3d8110c-097a-43ea-bd41-091de95b4c9a">
+      <name>Драйвер1ССканерШтрихкода</name>
+      <description>1С:Cканер штрихкода (Native)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="7fe7f543-1127-4b84-b8dd-c9d029e17f73">
+      <name>Драйвер1СДисплейПокупателяWin</name>
+      <description>1С:Дисплей покупателя (Windows)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="1ad8696d-9b13-453c-a548-4bacac830173">
+      <name>Драйвер1СДрайверFPrint11</name>
+      <description>1С:Драйвер FPrint-11</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="68ff1b51-c1b0-4cac-8fdd-55a6951c6d1b">
+      <name>Драйвер1СПринтерЧеков</name>
+      <description>1С:Принтер чеков</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="44a43ebf-be04-4f4c-a0f3-c2d605e900f8">
+      <name>Драйвер1СУстройствоВвода</name>
+      <description>1С:Устройство ввода</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="eac259cf-cdda-42d9-b348-c7943f0ece88">
+      <name>ДрайверIboxProПлатежнаяСистема</name>
+      <description>2Can:Сервис приема платежей</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="aaefc3a8-6bfe-42bc-a9fc-d76a4976b569">
+      <name>ДрайверCASЭлектронныеВесыWin</name>
+      <description>CAS:Электронные весы (Windows)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="a8557c26-6f4b-4cf4-b1e8-b88fc52a9167">
+      <name>ДрайверRightScanККТ54ФЗ</name>
+      <description>RightScan:ККТ с передачей данных в ОФД (54-ФЗ)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="12c21888-f4fe-4a32-8b8b-121b080fdc37">
+      <name>ДрайверRightScanУстройстваВвода</name>
+      <description>RightScan:Устройства ввода данных ТСД Urovo</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="be886a9e-fcc7-4f29-a34b-6d91af1f300d">
+      <name>ДрайверRightScanУстройствоПечати</name>
+      <description>RightScan:Устройство печати ТСД Urovo</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="29f7b40f-4c6d-4389-9103-7cd17e0bbcac">
+      <name>ДрайверScanPortУстройстваВвода</name>
+      <description>ScanPort:Устройства ввода данных</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="67291c30-84e9-4008-9afb-63b795bc135c">
+      <name>ДрайверАЗУРККТ54ФЗ</name>
+      <description>АЗУР:ККТ с передачей данных в ОФД (54-ФЗ)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="2c0f74f7-3112-4f01-aaa1-27414e482da6">
+      <name>ДрайверАЗУРПлатежнаяСистема</name>
+      <description>АЗУР:Платежная система</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="880b6d4c-2525-401e-bcc7-6d93994822a7">
+      <name>ДрайверАТОЛККТ54ФЗ9X</name>
+      <description>АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="ef025d14-4695-4dd9-8eac-0b55a761d9ee">
+      <name>ДрайверАТОЛККТ54ФЗ10X</name>
+      <description>АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ) 10.x</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="13022671-16b6-4279-9411-890428a48399">
+      <name>ДрайверАТОЛЭлектронныеВесыWin</name>
+      <description>АТОЛ:Электронные весы (Windows)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="5507d7bb-0f3f-4de7-af71-7d92814e5f65">
+      <name>ДрайверВерсияТККТ54ФЗ</name>
+      <description>Версия-Т:ККТ с передачей данных в ОФД (54-ФЗ)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="9277206b-8f11-42dc-987f-665cb772afa9">
+      <name>ДрайверInpasПлатежнаяСистема</name>
+      <description>ИНПАС:Эквайринг-терминал</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="31d9f906-7d60-4a1d-8e00-423563a9c7bc">
+      <name>ДрайверСканситиУстройстваВвода</name>
+      <description>СКАН СИТИ:Устройства ввода данных</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="4365a3e5-4428-4608-9471-1f381a34080f">
+      <name>ДрайверСканкодСканерШтрихкода</name>
+      <description>СКАНКОД:Cканер штрихкода Chipherlab (Native)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="9bb3e957-ee99-48dc-9c84-0996a9ead7e0">
+      <name>ДрайверШтрихМККТ54ФЗ</name>
+      <description>Штрих-М:ККТ с передачей данных в ОФД (54-ФЗ)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="afabcb9d-aada-41fd-a38a-d83782b94242">
+      <name>ДрайверШтрихМККТ54ФЗWin</name>
+      <description>Штрих-М:ККТ с передачей данных в ОФД (Windows)</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДрайверыОборудования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДрайверыОборудования.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="fcb34768-286f-444a-9a96-25128b07470d">
+    <name>ТипОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип оборудования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПодключаемогоОборудования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип оборудования подключаемого драйвера.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыПодключаемогоОборудования.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36c31338-088f-4efd-a8f4-629e6b29b605">
+    <name>ИдентификаторОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор объекта внешней компоненты. ProgID. Cтрока вида &quot;AddIn.Name&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17c77517-f23c-4c61-9025-eb4253127e17">
+    <name>УстановкаИзМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка из макета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24e927e3-baf5-4fcd-9cf3-bcfb910ec872">
+    <name>ВерсияДрайвера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия драйвера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия драйвера подключаемого оборудования в макете</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33501e6e-5a58-4a61-b2c0-f031d4325630">
+    <name>ИнтеграционноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграционное приложение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a8ce13bd-13e3-4f4f-a775-220db7cec99d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9451f043-ecb5-4679-83be-c781b6cc6044">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

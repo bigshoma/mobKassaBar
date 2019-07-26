@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ba30b6a-d2e9-42ab-9e9a-2b20cd8aee1b">
+  <producedTypes>
+    <refType typeId="85270cc9-eef0-4134-9d59-c05c535480a0" valueTypeId="715d8ef4-a874-41e9-a277-6ff6f5f2a536"/>
+    <listType typeId="e4762b01-070c-4f01-932f-47c56e5647ef" valueTypeId="e1e50e5f-ebb8-474b-bc89-1c790d262e45"/>
+    <managerType typeId="2072f3d1-777a-4fcd-90b3-207e94b09562" valueTypeId="8f1f29cb-7a2f-41a6-bd5e-677fd8a462a2"/>
+  </producedTypes>
+  <name>ВидыТранспортаСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспорта сообщений обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1fb1afaa-5d68-461f-a749-17778dcded41">
+    <name>FILE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Локальный или сетевой каталог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a50c622c-f772-407c-863a-a87593319a5b">
+    <name>WS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

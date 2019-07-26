@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ba09bea-b0b5-4973-bffa-2c428a8bb8a5">
+  <name>Драйвер1ССканерШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Cканер штрихкода (Native)</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7be1c8db-c991-4dcd-b1c8-9ef83324d789">
+  <name>ЕГАИСОтветАлкогольнаяПродукция</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕГАИС Ответ алкогольная продукция</value>
+  </synonym>
+</mdclass:CommonTemplate>

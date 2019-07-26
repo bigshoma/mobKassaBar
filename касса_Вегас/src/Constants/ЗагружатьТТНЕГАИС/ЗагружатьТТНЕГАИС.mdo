@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b23dd280-3075-4504-86ab-242b4ab12e2c">
+  <producedTypes>
+    <managerType typeId="eb25ae19-c7c3-427f-873c-4945f8a24d72" valueTypeId="49d6ec22-7837-4028-93f6-642d134dc24d"/>
+    <valueManagerType typeId="d48ca02b-5be4-48f7-bbb2-8a2b8fa1752d" valueTypeId="3d8f2f10-26b7-4bb9-b587-8ce74029f1a5"/>
+    <valueKeyType typeId="021b6491-f868-54c8-a302-a907039337f5" valueTypeId="37fe8804-98e4-52be-ba8c-5775a216a371"/>
+  </producedTypes>
+  <name>ЗагружатьТТНЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загружать ТТН ЕГАИС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a1fad02-8483-40b1-af72-4397a9dfbf3c">
+  <producedTypes>
+    <managerType typeId="6480b2b2-a593-415f-a36a-a4dfe93e7d1e" valueTypeId="c426d7e0-f18c-4dfd-b915-40e3a2594fed"/>
+    <valueManagerType typeId="3d54a75c-f90a-451a-b255-5d99ec0a8957" valueTypeId="3572d179-2fae-48bf-bd55-5944ecc85b30"/>
+    <valueKeyType typeId="29590e24-95aa-5e1b-9581-9317fc90561e" valueTypeId="57ad01c8-7fc2-533d-8461-bd85f79ba788"/>
+  </producedTypes>
+  <name>ДатаНачалаВыгрузкиЧековЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала выгрузки чеков ЕГАИС</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

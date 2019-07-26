@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54b1e4a-8de0-44d7-927c-87303aac4d88">
+  <name>ВозвратЗеленый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат зеленый</value>
+  </synonym>
+</mdclass:CommonPicture>

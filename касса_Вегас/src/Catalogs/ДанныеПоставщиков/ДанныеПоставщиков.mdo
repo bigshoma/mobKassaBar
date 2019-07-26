@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c77bff20-1e3a-4737-833e-ba7cdd7d8b75">
+  <producedTypes>
+    <objectType typeId="54b72e15-32fb-4b2c-ab57-3e7eda9cefd4" valueTypeId="227b9dd6-0d1a-483c-ad42-189db77af328"/>
+    <refType typeId="c2085e51-0ca0-4e7e-9d42-50147bf848aa" valueTypeId="aa6481f5-765c-4e8f-8bc8-c62e96d0e483"/>
+    <selectionType typeId="0d87acb1-9f68-459b-bab5-cb73b1bb410d" valueTypeId="a69a024c-80fb-45e2-aac1-6d6ded3d1393"/>
+    <listType typeId="f95bf776-0d8a-497a-a68f-312e24990bc5" valueTypeId="50e6e40b-58ec-46da-b3bf-8f0c3723501a"/>
+    <managerType typeId="39daa710-1174-4b30-98c0-5e927b2b9f8f" valueTypeId="acfe0984-97a7-48fe-b871-9d1709d3a5d5"/>
+  </producedTypes>
+  <name>ДанныеПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные поставщиков</value>
+  </synonym>
+  <inputByString>Catalog.ДанныеПоставщиков.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДанныеПоставщиков.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b1af9d85-84ec-4fbf-a40e-e92fee232701">
+    <name>ИННПоставщикаУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН поставщика услуг</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>ИНН контрагента, предоставляющий услуги, оплата за которые поступает в кассу организации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28952e76-4052-4aa2-8768-4368399c7f2c">
+    <name>КодПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89d1a755-2c26-4122-9cba-17db5db6e336">
+    <name>ПоставщикУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик услуг</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Контрагент, предоставляющий услуги, оплата за которые поступает в кассу организации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52b91569-cf97-4f09-b83b-032617d47adf">
+    <name>ТелефонПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон поставщика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефон поставщика. Для платежного агента и платежного субагента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

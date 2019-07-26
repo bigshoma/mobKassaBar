@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>4</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;xs:schema xmlns:tns="http://www.1c.ru/EquipmentService" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.1c.ru/EquipmentService" attributeFormDefault="unqualified" elementFormDefault="qualified"&gt;
+	&lt;xs:simpleType name="CodeType"&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:maxLength value="36"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="DocTypes"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordDocType" type="tns:ТипыДокументовЗапись" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="MoneyType"&gt;
+		&lt;xs:restriction base="xs:decimal"&gt;
+			&lt;xs:totalDigits value="15"/&gt;
+			&lt;xs:fractionDigits value="2"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="NameType"&gt;
+		&lt;xs:restriction base="xs:string"/&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="PaymentType"&gt;
+		&lt;xs:restriction base="xs:decimal"&gt;
+			&lt;xs:minInclusive value="0"/&gt;
+			&lt;xs:maxInclusive value="99"/&gt;
+			&lt;xs:fractionDigits value="0"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="PriceList"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Groups" type="tns:ГруппыТоваров" minOccurs="0"/&gt;
+			&lt;xs:element name="Goods" type="tns:Товары" minOccurs="0"/&gt;
+			&lt;xs:element name="Extensions" minOccurs="0"/&gt;
+		&lt;/xs:sequence&gt;
+		&lt;xs:attribute name="Processed" type="tns:ProcessedType"/&gt;
+		&lt;xs:attribute name="FullLoad" type="xs:boolean"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="ProcessedType"&gt;
+		&lt;xs:restriction base="xs:dateTime"/&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="QuantityType"&gt;
+		&lt;xs:restriction base="xs:decimal"&gt;
+			&lt;xs:totalDigits value="15"/&gt;
+			&lt;xs:fractionDigits value="3"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="Response"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Succeeded" type="xs:boolean"/&gt;
+			&lt;xs:element name="Description" type="xs:string" minOccurs="0"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="SalesReports"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Report" type="tns:ОтчетОПродажах" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+		&lt;xs:attribute name="Processed" type="tns:ProcessedType"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Settings"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="CompanyName" type="tns:NameType" minOccurs="0"/&gt;
+			&lt;xs:element name="Taxation" type="tns:Taxation" minOccurs="0" maxOccurs="unbounded"/&gt;
+			&lt;xs:element name="UseDiscounts" type="xs:boolean" minOccurs="0"/&gt;
+			&lt;xs:element name="UseBankingCard" type="xs:boolean" minOccurs="0"/&gt;
+			&lt;xs:element name="VATIN" type="tns:StringType" minOccurs="0"/&gt;
+			&lt;xs:element name="PaymentSorts" type="tns:ВидыОплаты" minOccurs="0"/&gt;
+		&lt;/xs:sequence&gt;
+		&lt;xs:attribute name="Processed" type="tns:ProcessedType"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="StringType"&gt;
+		&lt;xs:restriction base="xs:string"/&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="Taxation"&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:enumeration value="Общая"/&gt;
+			&lt;xs:enumeration value="Упрощенная"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="ВидыОплаты"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordSort" type="tns:ВидыОплатыЗапись" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ВидыОплатыЗапись"&gt;
+		&lt;xs:attribute name="Code" type="tns:CodeType"/&gt;
+		&lt;xs:attribute name="PaymentType" type="tns:PaymentType" use="required"/&gt;
+		&lt;xs:attribute name="Name" type="tns:NameType" use="required"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ГруппыТоваров"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordGroup" type="tns:ГруппыТоваровЗапись" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ГруппыТоваровЗапись"&gt;
+		&lt;xs:attribute name="Code" type="tns:CodeType" use="required"/&gt;
+		&lt;xs:attribute name="Name" type="tns:NameType" use="required"/&gt;
+		&lt;xs:attribute name="GroupCode" type="tns:CodeType" use="required"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ДопСведения"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordExtension"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ДопСведенияЗапись"&gt;
+		&lt;xs:attribute name="Code" use="required"/&gt;
+		&lt;xs:attribute name="Name" use="required"/&gt;
+		&lt;xs:attribute name="Value" use="required"/&gt;
+		&lt;xs:attribute name="BarCode" use="required"/&gt;
+		&lt;xs:attribute name="Price" use="required"/&gt;
+		&lt;xs:attribute name="Remainder" type="tns:QuantityType"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ОтчетОПродажах"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Goods" type="tns:ОтчетОПродажахТовары"/&gt;
+			&lt;xs:element name="Payments" type="tns:ОтчетОПродажахОплаты"/&gt;
+		&lt;/xs:sequence&gt;
+		&lt;xs:attribute name="SessionNumber" type="tns:StringType" use="required"/&gt;
+		&lt;xs:attribute name="DateOpen" type="xs:dateTime" use="required"/&gt;
+		&lt;xs:attribute name="DateClose" type="xs:dateTime" use="required"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ОтчетОПродажахОплаты"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordPayment" type="tns:ОтчетОПродажахОплатыЗапись" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ОтчетОПродажахОплатыЗапись"&gt;
+		&lt;xs:attribute name="PaymentType" type="tns:PaymentType" use="required"/&gt;
+		&lt;xs:attribute name="Amount" type="tns:MoneyType" use="required"/&gt;
+		&lt;xs:attribute name="CodePaymentSort" type="tns:CodeType"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ОтчетОПродажахТовары"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordGood" type="tns:ОтчетОПродажахТоварыЗапись" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ОтчетОПродажахТоварыЗапись"&gt;
+		&lt;xs:attribute name="Code" type="tns:CodeType" use="required"/&gt;
+		&lt;xs:attribute name="Quantity" type="tns:QuantityType" use="required"/&gt;
+		&lt;xs:attribute name="Price" type="tns:MoneyType" use="required"/&gt;
+		&lt;xs:attribute name="Amount" type="tns:MoneyType" use="required"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ТипыДокументовЗапись"&gt;
+		&lt;xs:attribute name="DocType" type="tns:StringType" use="required"/&gt;
+		&lt;xs:attribute name="CanGet" type="xs:boolean" use="required"/&gt;
+		&lt;xs:attribute name="CanPost" type="xs:boolean" use="required"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Товары"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordGood" type="tns:ТоварыЗапись" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ТоварыЗапись"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Characteristic" type="tns:Характеристики" minOccurs="0"/&gt;
+			&lt;xs:element name="Packing" type="tns:Упаковки" minOccurs="0"/&gt;
+		&lt;/xs:sequence&gt;
+		&lt;xs:attribute name="Code" type="tns:CodeType"/&gt;
+		&lt;xs:attribute name="GroupCode" type="tns:CodeType" use="required"/&gt;
+		&lt;xs:attribute name="Name" type="tns:NameType" use="required"/&gt;
+		&lt;xs:attribute name="Article" type="tns:StringType" use="required"/&gt;
+		&lt;xs:attribute name="UnitOfMeasurement" type="tns:StringType" use="required"/&gt;
+		&lt;xs:attribute name="Tax" type="xs:decimal" use="required"/&gt;
+		&lt;xs:attribute name="IsWeightGoods" type="xs:boolean" use="required"/&gt;
+		&lt;xs:attribute name="BarCode" type="tns:StringType"/&gt;
+		&lt;xs:attribute name="Price" type="tns:MoneyType"/&gt;
+		&lt;xs:attribute name="Service" type="xs:boolean" use="required"/&gt;
+		&lt;xs:attribute name="Remainder" type="tns:QuantityType"/&gt;
+		&lt;xs:attribute name="HavingCharacteristic" type="xs:boolean" use="required"/&gt;
+		&lt;xs:attribute name="HavingPacking" type="xs:boolean" use="required"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Упаковки"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordPacking" type="tns:УпаковкиЗапись" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="УпаковкиЗапись"&gt;
+		&lt;xs:attribute name="Code" use="required"/&gt;
+		&lt;xs:attribute name="Name" type="tns:NameType" use="required"/&gt;
+		&lt;xs:attribute name="Coefficient" type="tns:QuantityType" use="required"/&gt;
+		&lt;xs:attribute name="BarCode" type="xs:string"/&gt;
+		&lt;xs:attribute name="Price" type="tns:MoneyType" use="required"/&gt;
+		&lt;xs:attribute name="Remainder" type="tns:QuantityType"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Характеристики"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="RecordCharacteristic" type="tns:ХарактеристикиЗапись" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ХарактеристикиЗапись"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Packing" type="tns:Упаковки" minOccurs="0"/&gt;
+		&lt;/xs:sequence&gt;
+		&lt;xs:attribute name="Code"/&gt;
+		&lt;xs:attribute name="Name" type="tns:NameType" use="required"/&gt;
+		&lt;xs:attribute name="BarCode" type="xs:string"/&gt;
+		&lt;xs:attribute name="Price" type="tns:MoneyType"/&gt;
+		&lt;xs:attribute name="Remainder" type="tns:QuantityType"/&gt;
+		&lt;xs:attribute name="HavingPacking" type="xs:boolean"/&gt;
+	&lt;/xs:complexType&gt;
+&lt;/xs:schema&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>2</defaultFormatIndex>
+	<height>199</height>
+	<vgRows>199</vgRows>
+	<format>
+		<width>566</width>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>

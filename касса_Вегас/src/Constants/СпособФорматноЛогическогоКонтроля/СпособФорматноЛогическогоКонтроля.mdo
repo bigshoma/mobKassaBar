@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7220ced-a9ec-4dbc-9d4f-a7c5de7ffedb">
+  <producedTypes>
+    <managerType typeId="4e0539aa-0d86-4447-b273-9db9a374df3f" valueTypeId="d9c20d6e-d27f-453a-aff6-2b6ded6d7de2"/>
+    <valueManagerType typeId="2111d9f1-8064-4ea0-b71c-332dd487f09d" valueTypeId="77130d6b-a10e-4df0-a234-1b00e39a174a"/>
+    <valueKeyType typeId="d6426de9-cba3-5ff4-a5bc-149aeb044f2a" valueTypeId="146ff825-b872-5ef6-bece-b2e005c0ebba"/>
+  </producedTypes>
+  <name>СпособФорматноЛогическогоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ форматно логического контроля</value>
+  </synonym>
+  <type>
+    <types>EnumRef.СпособыФорматноЛогическогоКонтроля</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

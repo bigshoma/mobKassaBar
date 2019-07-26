@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3d65de2-3411-4f86-b034-81fd9496cf34">
+  <name>ИспользоватьЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ЕГАИС</value>
+  </synonym>
+  <location>Constant.ЗагружатьТТНЕГАИС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ЕГАИС</content>
+</mdclass:FunctionalOption>

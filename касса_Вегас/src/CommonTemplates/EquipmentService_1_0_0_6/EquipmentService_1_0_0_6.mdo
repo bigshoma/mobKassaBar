@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="951dd6d0-e0be-4619-87f6-cbbbeb0c1c09">
+  <name>EquipmentService_1_0_0_6</name>
+  <synonym>
+    <key>ru</key>
+    <value>Equipment service 1 0 0 6</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4585da15-b74d-472c-afe5-8c7366f893a7">
+  <producedTypes>
+    <refType typeId="97fa0ef1-3610-46cb-b320-90fdb5ded898" valueTypeId="580a0637-6383-4aef-8905-94a9e9621915"/>
+    <listType typeId="3b9e3d4d-5455-4ecb-a2d4-950221148d3f" valueTypeId="6956f8f5-7884-4129-b9e0-96502c721699"/>
+    <managerType typeId="269abaa6-a998-408e-804f-201fc03b63a6" valueTypeId="f2713e02-c025-4830-ab4e-2711896297a2"/>
+  </producedTypes>
+  <name>ТипыВыемки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выемки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1ef4c698-79ad-4ff3-96df-915540f9e44e">
+    <name>НеполнаяВыемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неполная выемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c527215-0ad3-4839-bad1-252ffb150648">
+    <name>ВыемкуНеПроизводить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выемку не производить</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

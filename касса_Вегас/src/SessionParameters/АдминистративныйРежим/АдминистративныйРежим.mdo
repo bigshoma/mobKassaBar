@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11d93f88-82ff-4eb8-aa85-cfe17050c6ef">
+  <name>АдминистративныйРежим</name>
+  <synonym>
+    <key>ru</key>
+    <value>Административный режим</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

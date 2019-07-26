@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f8d6843-29f0-4d37-9ed1-ff32b1191d5e">
+  <producedTypes>
+    <managerType typeId="1a448c6d-ff47-4a11-b6f1-589ef4f10d55" valueTypeId="8808a5cf-02be-4126-9a64-63d0cbd9bdee"/>
+    <valueManagerType typeId="07fe7730-7ee2-48a2-a689-05818b44b413" valueTypeId="13b87981-fd6e-4ffc-bb7a-c37fde35c611"/>
+    <valueKeyType typeId="c14e6bdf-5545-5bc7-a7b1-09b2ce36cdfd" valueTypeId="a6836f16-7b9c-5f9c-8aed-677611cc99c0"/>
+  </producedTypes>
+  <name>ОборудованиеСканирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование сканирования</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПодключаемоеОборудование</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

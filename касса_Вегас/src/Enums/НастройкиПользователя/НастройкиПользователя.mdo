@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e14259c-3398-4547-b7c9-a1abd4d42381">
+  <producedTypes>
+    <refType typeId="0bbd96d0-f8ab-458e-9ff6-0690fa08ea97" valueTypeId="d00a352b-71a1-4e9a-9b93-657a78821e37"/>
+    <listType typeId="fe8536e6-7fc1-418c-a547-df00a833a2b1" valueTypeId="bc61e455-be1c-4151-bbef-a7786d560bdb"/>
+    <managerType typeId="82bca30b-53cf-4600-8a9b-e76201076f2a" valueTypeId="a80e3bc8-80af-41ee-ae37-c7512f263a0e"/>
+  </producedTypes>
+  <name>НастройкиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователя</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9cda3125-3cac-473b-8267-7c2879ed0c5e">
+    <name>ВидАдресаПодключенияWS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид адреса подключения WS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="122622bf-41c9-4a48-9fb4-c84575520790">
+    <name>ЕГАИСПериодСпискаТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕГАИС период списка ТТН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6da7b69-b337-4f0f-9645-d3ccbeefb4c7">
+    <name>ЖурналПродажиАлкогольнойПродукцииВыводитьТитульныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал продажи алкогольной продукции выводить титульный лист</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b13ae186-4d57-4522-b6d5-5d18b0691863">
+    <name>ЖурналПродажиАлкогольнойПродукцииПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал продажи алкогольной продукции период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98d6c51d-be0a-43b8-b4bd-8c72e0d88a09">
+    <name>ИмпортПрайсЛистаВариантПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс листа вариант поиска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c72f712f-144c-4bbb-8843-92d13c2deae0">
+    <name>ИмпортПрайсЛистаГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс листа группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1160aac2-2ffb-4bcb-8110-1ae811f27432">
+    <name>ИмпортПрайсЛистаЕдИзм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс листа ед изм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="646d863f-b478-4f7c-a55a-17bfd1f3908b">
+    <name>ИмпортПрайсЛистаПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс листа путь к файлу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ab812b0-4be4-453b-8535-3f4172457cf8">
+    <name>ИмпортПрайсЛистаСтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс листа ставка НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f20acca-1410-4303-9edb-3a90ed8824dc">
+    <name>КассаВозвратРазвернуто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса возврат развернуто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="853383f6-8c1c-4e2f-9923-0cec24bff6a0">
+    <name>КассаПродажаРазвернуто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса продажа развернуто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e7ad807-6587-427b-81ad-5641aeb96af5">
+    <name>Кассир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассир</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47294de8-b532-4782-85e7-c888d43299f7">
+    <name>ОтчетГеоВариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет гео вариант</value>
+    </synonym>
+    <comment>0 - ПоКассовойСмене, 1 -  </comment>
+  </enumValues>
+  <enumValues uuid="6380809f-60a4-4d63-8f96-75a845417984">
+    <name>ОтчетГеоПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет гео период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51286fea-afca-4dd2-a71e-273817f85945">
+    <name>ОтчетГеоПоГоризонтали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет гео по горизонтали</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb52af4b-dcab-4429-960b-912d33c9da09">
+    <name>ОтчетПродажиВариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет продажи вариант</value>
+    </synonym>
+    <comment>0 - ПоКассовойСмене, 1 -  </comment>
+  </enumValues>
+  <enumValues uuid="2006a403-cb58-4c77-9a68-dba4264a696a">
+    <name>ОтчетПродажиПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет продажи период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="648dccd3-dfe0-4382-b1d8-a7fb038b4a69">
+    <name>ОтчетПродажиПоГоризонтали</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет продажи по горизонтали</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe329522-86c2-40c1-9a5b-0c4a9d0c6696">
+    <name>ПериодСпискаЧеков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период списка чеков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bdd842e-7a4e-4b9c-8b95-33ebc973ce7f">
+    <name>ПодборТоваровВариантСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор товаров вариант сортировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c56130ce-cd59-40b5-974b-d58050d70f38">
+    <name>ПодборТоваровИзбранное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор товаров избранное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f342a4f3-053d-4540-96ce-ba063f3502aa">
+    <name>ПодборТоваровОтборПоГруппеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор товаров отбор по группе значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac415b50-f944-47bd-9ce5-d9b86bf723f3">
+    <name>ПодборТоваровОтборПоГруппеФлаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор товаров отбор по группе флаг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ec1d61f-6688-4292-8a70-3084fbc2dd6f">
+    <name>ПодборТоваровПоискПоШтрихкодуВручнуюФлаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор товаров поиск по штрихкоду вручную флаг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65bd3696-cc83-48c7-afdc-0df782cde86b">
+    <name>ПрайсЛистВариантСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист вариант сортировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfe0610c-d036-4a18-b4d5-57ad9523eeca">
+    <name>ПрайсЛистИзбранное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист избранное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c78139e6-b612-42d7-bb6c-4bc2d0e0b8e4">
+    <name>ПрайсЛистОтборПоГруппеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист отбор по группе значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1a52491-84aa-4383-a269-6d72c1667b9d">
+    <name>ПрайсЛистОтборПоГруппеФлаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист отбор по группе флаг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48a7b32f-9e17-43ff-88d9-eac8bd0cd4e2">
+    <name>ПрайсЛистПоискПоШтрихкодуВручнуюФлаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист поиск по штрихкоду вручную флаг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8f43eb1-8721-4e18-98ee-d556a0d053c1">
+    <name>ФильтрСпискаЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр списка заказов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ae75fca-50f5-4e18-9b93-df02abdcf1f7">
+    <name>ЭтикеткиЦенникиРежимПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетки ценники режим печати</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;xs:schema xmlns:ns1="http://fsrar.ru/WEGAIS/Common" xmlns:tns="http://fsrar.ru/WEGAIS/QueryParameters" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fsrar.ru/WEGAIS/QueryParameters" attributeFormDefault="unqualified" elementFormDefault="qualified"&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/Common"/&gt;
+	&lt;xs:complexType name="Запрос"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Parameters" type="tns:Параметры" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Параметры"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Parameter" type="tns:ПараметрыЭлемент" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ПараметрыЭлемент"&gt;
+		&lt;xs:all&gt;
+			&lt;xs:element name="Name" type="ns1:Строка50"/&gt;
+			&lt;xs:element name="Value"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="ns1:Строка"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+		&lt;/xs:all&gt;
+	&lt;/xs:complexType&gt;
+&lt;/xs:schema&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>

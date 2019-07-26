@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b01c7ef3-8931-4b83-89f5-0ad95847f14b">
+  <name>ИспользоватьОплатуНаличными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату наличными</value>
+  </synonym>
+  <location>Constant.ИспользоватьОплатуНаличными</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98e96dea-c4ae-4d23-82ec-136de1cdc2e1">
+  <producedTypes>
+    <objectType typeId="d04ea6cb-f43e-4dc7-962d-d419a4eaab8a" valueTypeId="41d29085-85d2-40d5-89af-c20e5da6d16a"/>
+    <managerType typeId="c88f2db7-8c72-4037-a2a1-0ad3552df93e" valueTypeId="15119476-ace3-4099-82a4-6a94b6c43ad3"/>
+  </producedTypes>
+  <name>ВводМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод марок</value>
+  </synonym>
+  <defaultForm>DataProcessor.ВводМарок.Form.Форма</defaultForm>
+  <tabularSections uuid="c8054585-a832-4dc4-b844-0b02596db10f">
+    <producedTypes>
+      <objectType typeId="26fa6917-7a1a-4429-81f2-8469c6ad7a78" valueTypeId="f2f7661f-21ef-43e8-a8a7-d85068fd9dcc"/>
+      <rowType typeId="84717f9c-7868-4eeb-828f-6418125f9321" valueTypeId="0308263d-3ffc-4236-93b7-4f958ca108c8"/>
+    </producedTypes>
+    <name>Марки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d8d4c084-a5ff-48f3-b54b-0dcbfc301500">
+      <name>КодМаркировки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код маркировки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>68</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="361b73f0-b8f1-4678-b194-f5362f110397">
+      <name>ТипМаркировки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип маркировки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыМаркировкиККТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="35cfd9c0-dab6-4494-b21e-467262e7ddf9">
+      <name>ГлобальныйИдентификаторТорговойЕдиницы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Глобальный идентификатор торговой единицы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="37468c58-da3a-413c-b704-9c411dc8ff3b">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="bc8d6246-3bd0-4241-b058-e7bdd3213f07">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

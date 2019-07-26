@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b8bd23f-ddd2-4344-b8b8-7880ba14f5d5">
+  <name>НаличныеПлюсКартаБелый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличные плюс карта белый</value>
+  </synonym>
+</mdclass:CommonPicture>

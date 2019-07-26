@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3d8c489-ad33-4ec2-b2b0-11335815a1c1">
+  <producedTypes>
+    <managerType typeId="df32d810-896a-473a-b093-ee2a42655974" valueTypeId="17dc2aa7-59a6-48d2-a782-4e0a7e83a0cf"/>
+    <valueManagerType typeId="07ca413e-bc86-4ed3-9a62-7d7a2542148c" valueTypeId="242285a0-aa1c-4dbb-a980-96a071fa7488"/>
+    <valueKeyType typeId="9227f538-929c-5f17-8350-40eb671fc0e6" valueTypeId="3d8e23ac-4d73-5fa1-aa60-66175eeae316"/>
+  </producedTypes>
+  <name>РегистрацияВОблакеНомерОбласти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке номер области</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

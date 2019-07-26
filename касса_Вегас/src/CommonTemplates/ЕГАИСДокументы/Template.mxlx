@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;xs:schema xmlns:ns1="http://fsrar.ru/WEGAIS/ReplyFormA" xmlns:ns10="http://fsrar.ru/WEGAIS/QueryFormAB" xmlns:ns11="http://fsrar.ru/WEGAIS/ActTTNSingle" xmlns:ns12="http://fsrar.ru/WEGAIS/Common" xmlns:ns13="http://fsrar.ru/WEGAIS/ConfirmTicket" xmlns:ns14="http://fsrar.ru/WEGAIS/ActInventoryInformBReg" xmlns:ns15="http://fsrar.ru/WEGAIS/ActWriteOff" xmlns:ns2="http://fsrar.ru/WEGAIS/ReplyFormB" xmlns:ns3="http://fsrar.ru/WEGAIS/Ticket" xmlns:ns4="http://fsrar.ru/WEGAIS/TTNInformBReg" xmlns:ns5="http://fsrar.ru/WEGAIS/TTNSingle" xmlns:ns6="http://fsrar.ru/WEGAIS/ReplyAP" xmlns:ns7="http://fsrar.ru/WEGAIS/ReplyClient" xmlns:ns8="http://fsrar.ru/WEGAIS/QueryParameters" xmlns:ns9="http://fsrar.ru/WEGAIS/ActChargeOn" xmlns:tns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" attributeFormDefault="unqualified" elementFormDefault="qualified"&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ReplyFormA"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ReplyFormB"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/Ticket"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/TTNInformBReg"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/TTNSingle"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ReplyAP"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ReplyClient"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/QueryParameters"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ActChargeOn"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/QueryFormAB"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ActTTNSingle"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/Common"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ConfirmTicket"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ActInventoryInformBReg"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ActWriteOff"/&gt;
+	&lt;xs:complexType name="Владелец"&gt;
+		&lt;xs:all&gt;
+			&lt;xs:element name="FSRAR_ID" type="ns12:ИдентификаторФСРАР"/&gt;
+		&lt;/xs:all&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Документ"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="WayBillAct" type="ns11:АктПодтвержденияТТН" minOccurs="0"/&gt;
+			&lt;xs:element name="ActChargeOn" type="ns9:АктПостановкиНаБаланс" minOccurs="0"/&gt;
+			&lt;xs:element name="ActWriteOff" type="ns15:АктСписания" minOccurs="0"/&gt;
+			&lt;xs:element name="QueryAP" type="ns8:Запрос" minOccurs="0"/&gt;
+			&lt;xs:element name="QueryClients" type="ns8:Запрос" minOccurs="0"/&gt;
+			&lt;xs:element name="QueryFormA" type="ns10:Запрос" minOccurs="0"/&gt;
+			&lt;xs:element name="QueryFormB" type="ns10:Запрос" minOccurs="0"/&gt;
+			&lt;xs:element name="Ticket" type="ns3:Квитанция" minOccurs="0"/&gt;
+			&lt;xs:element name="ReplyAP" type="ns6:Ответ" minOccurs="0"/&gt;
+			&lt;xs:element name="ReplyClient" type="ns7:Ответ" minOccurs="0"/&gt;
+			&lt;xs:element name="ReplyFormA" type="ns1:СправкаА" minOccurs="0"/&gt;
+			&lt;xs:element name="ReplyFormB" type="ns2:СправкаБ" minOccurs="0"/&gt;
+			&lt;xs:element name="ConfirmTicket" type="ns13:ПодтверждениеАктаРасхожденийТТН" minOccurs="0"/&gt;
+			&lt;xs:element name="ActInventoryInformBReg" type="ns14:РегистрацияСправок" minOccurs="0"/&gt;
+			&lt;xs:element name="TTNInformBReg" type="ns4:РегистрацияСправок" minOccurs="0"/&gt;
+			&lt;xs:element name="WayBill" type="ns5:ТТН" minOccurs="0"/&gt;
+		&lt;/xs:choice&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Документы"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Owner" type="tns:Владелец"/&gt;
+			&lt;xs:element name="Document" type="tns:Документ"/&gt;
+		&lt;/xs:sequence&gt;
+		&lt;xs:attribute name="Version" type="ns12:Строка" default="1.0"/&gt;
+	&lt;/xs:complexType&gt;
+&lt;/xs:schema&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>

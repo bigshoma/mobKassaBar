@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be26cd20-1f4b-4789-929f-a16b3b9ab9e5">
+  <producedTypes>
+    <objectType typeId="302f4055-ef95-4cf7-8f69-1151acf3ff05" valueTypeId="71184420-230a-4e4d-9001-d9909dce9dd8"/>
+    <refType typeId="9b1e7b5e-e3f3-465d-a01f-ecf821ae3540" valueTypeId="5135516f-686a-4410-a9f8-c53c45d2d44c"/>
+    <selectionType typeId="d03f1e16-ed59-4956-bf35-7e388c3c2312" valueTypeId="450e7798-9c15-4052-b9e2-213cca22a4ca"/>
+    <listType typeId="02460960-3b1e-42de-aebf-38c8590271e4" valueTypeId="b95cff92-2a92-4dbe-b0f9-1d3f56eed446"/>
+    <managerType typeId="c22ec218-ec0b-4015-95fc-0ff5952235b4" valueTypeId="65fea4e7-5b08-42db-a813-0229c5f55ee5"/>
+  </producedTypes>
+  <name>ТоварноТранспортнаяНакладнаяЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарно-транспортная накладная ЕГАИС</value>
+  </synonym>
+  <inputByString>Document.ТоварноТранспортнаяНакладнаяЕГАИС.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ТТН ЕГАИС</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>ТТН ЕГАИС</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ТоварноТранспортнаяНакладнаяЕГАИС.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="527b3ff7-d2ba-49ef-af5a-93bed66ea68e">
+    <name>ДатаТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ТТН</value>
+    </synonym>
+    <comment>WBDate</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87078959-b3e7-46cf-91b5-acd62545a024">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>Identity</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="769d457d-74ed-4e5c-a044-ed5165a0d0cd">
+    <name>ИдентификаторИсходящегоЗапросаАктаПодтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор исходящего запроса акта подтверждения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e18e53b5-59d6-48ac-bf6b-fb19be30d674">
+    <name>КодГрузоотправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код грузоотправителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="111e7a21-f247-4fd7-b4b9-557c70e30bde">
+    <name>НомерТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ТТН</value>
+    </synonym>
+    <comment>WBNUMBER</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8264caba-7ce5-4b41-be34-4ec4aebf9f61">
+    <name>ОтправленоПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено подтверждение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="898e5bce-43a1-4df4-9e3b-b24fa43915bb">
+    <name>ОтправленОтказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен отказ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="447447bb-6b24-40a4-8d5d-23b72b447a75">
+    <name>СправкаБТекстXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка Б текст XML</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ec543b6-907f-4f5d-8bd7-67885b35b2d6">
+    <name>ТТНТекстXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН текст XML</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="91b51e76-8d65-4874-a8b2-ae186feaddb0">
+    <name>ПросмотрСтрокиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр строки товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8258ea3-988b-4c81-b9f5-f177b7d47550">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d96d7a62-6ebd-4c5d-9a54-9681055e457d">
+    <name>ФормаОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e0f011a1-4413-4f89-a0b8-fe3598c2d356">
+    <producedTypes>
+      <objectType typeId="9dcf34a6-ae43-4cf5-ad7e-fb84b9cf0784" valueTypeId="38c87812-e1ac-4965-aa0b-f3ebbbb5f97e"/>
+      <rowType typeId="3293e533-b5b5-44c7-adb1-44184cd94678" valueTypeId="b9a70733-770a-44de-b163-d52c763517e5"/>
+    </producedTypes>
+    <name>Квитанции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квитанции</value>
+    </synonym>
+    <attributes uuid="985377c4-1996-4a55-8b03-1a720cf2bae1">
+      <name>КвитанцияТекстXML</name>
+      <synonym>
+        <key>ru</key>
+        <value>Квитанция текст XML</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

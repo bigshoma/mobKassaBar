@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;HTML xmlns:o = "urn:schemas-microsoft-com:office:office" xmlns:v = "urn:schemas-microsoft-com:vml"&gt;&lt;HEAD&gt;
+&lt;META content="text/html; charset=utf-8" http-equiv=Content-Type&gt;&lt;/META&gt;
+&lt;STYLE type=text/css&gt;.style1 {
+	BACKGROUND-COLOR: #efefef
+}
+&lt;/STYLE&gt;
+
+&lt;META name=GENERATOR content="MSHTML 11.00.10570.1001"&gt;&lt;/META&gt;&lt;BASE href="v8config://c40aff23-c70f-4c2e-b9d6-07c6ae7d03f8/mdobject/id2586ae64-53c0-4fd6-91f9-73ebdac29f90/8eb4fad1-1fa6-403e-970f-2c12dbb43e23"&gt;&lt;/BASE&gt;&lt;/HEAD&gt;
+&lt;BODY&gt;&lt;SPAN lang=en-us&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;SPAN lang=en-us&gt;&amp;nbsp;&lt;B&gt;Версия 2.24&lt;/B&gt;&lt;SPAN lang=ru&gt; &lt;BR&gt;&lt;/SPAN&gt;•&lt;SPAN lang=ru&gt; Новая версия драйвера "1C:Сканер штрихкода (NativeApi)" позволяет использовать USB-сканер без нажатия кнопки "Сканирование"&lt;BR&gt;•&lt;SPAN lang=ru&gt; Указание адреса и места расчетов: &lt;BR&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=ru&gt;&lt;SPAN lang=ru&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; -&amp;nbsp;из заказа (по умолчанию) &lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - из геоданных &lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - вручную &lt;BR&gt;•&lt;SPAN lang=ru&gt; Новая опция параметров учета "Оплата наличными" позволяется управлять доступными видам приема оплаты &lt;BR&gt;•&lt;SPAN lang=ru&gt; Добавлены новые служебные операции на ККТ: "Внесение" и "Изъятие" наличных &lt;BR&gt;•&lt;SPAN lang=ru&gt; Исправление ошибок&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=ru&gt;&lt;SPAN lang=ru&gt;&lt;SPAN lang=ru&gt;&lt;SPAN lang=ru&gt;&lt;SPAN lang=ru&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;STRONG&gt;&lt;EM&gt;Подключаемое оборудование &lt;BR&gt;&lt;/EM&gt;&lt;/STRONG&gt;•&lt;SPAN lang=ru&gt; &lt;/SPAN&gt;Обновлен драйвер "Штрих-М:ККТ с передачей данных в ОФД (54-ФЗ)" до версии 1.16.1 &lt;BR&gt;•&lt;SPAN lang=ru&gt; Обновлен драйвер "1С:Принтер чеков" до версии 3.0.2&lt;/SPAN&gt; &lt;BR&gt;• Обновлен драйвер "1C:Сканер штрихкода (NativeApi)" до версии 9.0.4.5 &lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Добавлен поддержка сканеров подключенные по OTG и работающие в режиме эмуляции клавиатуры&lt;/SPAN&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.23&lt;/B&gt;&lt;SPAN lang=ru&gt; &lt;BR&gt;&lt;/SPAN&gt;•&lt;SPAN lang=ru&gt; Поддержка обмена "1С:Офлайн оборудование" 3.1&lt;BR&gt;•&lt;SPAN lang=ru&gt; Продажа маркированной продукции (табак, обувь, меха)&lt;BR&gt;&lt;/SPAN&gt;• &lt;SPAN lang=ru&gt;Чек коррекции&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - исправление ранее пробитого чека&lt;BR&gt;•&lt;SPAN lang=ru&gt; Исправление ошибок&lt;BR&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;B&gt;Версия 2.22.5&lt;/B&gt;&lt;SPAN lang=ru&gt;&lt;BR&gt;&lt;/SPAN&gt;•&lt;SPAN lang=ru&gt; Исправление ошибок&lt;BR&gt;&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;BR&gt;&lt;/B&gt;&lt;/I&gt;• Обновлен драйвер "RightScan:Устройства ввода данных ТСД Urovo” &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=ru&gt;версия 1.20&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt; 
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.22&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN lang=ru&gt;Пин-код кассира для входа в приложение&lt;BR&gt;&lt;/SPAN&gt;• &lt;SPAN lang=ru&gt;Чек коррекции&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - если в момент расчета с покупателем не был пробит обычный чек&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;SPAN lang=ru&gt;Журнал приложения&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - логирование кассовых операций&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=ru&gt;&lt;BR&gt;&lt;/SPAN&gt;•&lt;SPAN lang=ru&gt; Исправление ошибок&lt;/SPAN&gt; 
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.&lt;SPAN en-us=""&gt;21&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN lang=en-us&gt;Обновлена версия мобильной платформы 1С:Предприятие 8.3.13&lt;/SPAN&gt;&lt;SPAN lang=ru&gt;&lt;BR&gt;&lt;/SPAN&gt;• &lt;SPAN lang=ru&gt;Исправление ошибок&lt;BR&gt;&lt;/SPAN&gt;&lt;BR&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;BR&gt;&lt;/B&gt;&lt;/I&gt;•&lt;SPAN lang=ru&gt; Обновлен драйвер "Штрих-М:ККТ с передачей данных в ОФД (54-ФЗ)" версия 1.14.1&lt;BR&gt;&lt;/SPAN&gt;• Новый драйвер "СКАН СИТИ: Драйвер устройств ввода данных" версия 1.0.1.3&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.&lt;SPAN en-us=""&gt;20.5&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN lang=ru&gt;ИНН кассира&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;SPAN lang=ru&gt;Исправление ошибок&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=ru&gt;&lt;BR&gt;&lt;/SPAN&gt;&lt;BR&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;BR&gt;&lt;/B&gt;&lt;/I&gt;• Обновлен драйвер "АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ) 9.х" версия 9.12.4.6377&lt;BR&gt;•&lt;SPAN lang=ru&gt; Обновлен драйвер "Штрих-М:ККТ с передачей данных в ОФД (54-ФЗ)" версия 1.13.1&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Добавлена поддержка ставок НДС 20%, 20/120.&lt;BR&gt;&lt;/SPAN&gt;• Новый драйвер "Азур:ККТ с передачей данных в ОФД (54-ФЗ)" версия 1.0.5.6&lt;BR&gt;• Новый драйвер "Азур:Платежная система" версия 1.0.1.9&lt;BR&gt;• Новый драйвер "RightScan:ККТ с передачей данных в ОФД (54-ФЗ)" версия 1.23&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.&lt;/B&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;B&gt;&lt;SPAN en-us=""&gt;20&lt;/SPAN&gt;&lt;/B&gt;&lt;SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt; 
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN lang=ru&gt;Редактирование ставки&lt;/SPAN&gt;&lt;SPAN lang=ru&gt; НДС&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;SPAN lang=ru&gt;Поддержка НДС 20%&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN lang=ru&gt;&lt;BR&gt;&lt;/SPAN&gt;• &lt;SPAN lang=ru&gt;Юзабилити&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;SPAN&gt;Поддержка обмена 1С:Офлайн оборудование 3.0&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;SPAN lang=ru&gt;Исправление ошибок&lt;BR&gt;&lt;/SPAN&gt;&lt;BR&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;BR&gt;&lt;/B&gt;&lt;/I&gt;• Обновлен драйвер "АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ) 9.x" верси&lt;/SPAN&gt;я&lt;SPAN lang=en-us&gt; 9.12.2.6363&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Добавлена поддержка ставок НДС 20%, 20/120&lt;BR&gt;•&lt;SPAN lang=ru&gt; Обновлен драйвер "1С:Принтер чеков" версия 3.0.1.1&lt;BR&gt;&lt;/SPAN&gt;• Новый драйвер "АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ) 10.x" версия 10.4.3&lt;BR&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.19&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN lang=ru&gt;Регистрация и доступ к приложению 1С:Касса (для пользователей полной версии)&lt;BR&gt;&lt;/SPAN&gt;• &lt;SPAN lang=ru&gt;Исправление ошибок&lt;/SPAN&gt;&lt;BR&gt;&lt;BR&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;BR&gt;&lt;/B&gt;&lt;/I&gt;• Обновлен драйвер "АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ) 9.x" версии 9.12.2.6236&lt;BR&gt;•&lt;SPAN lang=ru&gt; Обновлено интеграционное приложение "iboxPro: Поддержка mPOS-эквайринга" версия 1.9 &lt;/SPAN&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.1&lt;/B&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;B&gt;&lt;SPAN en-us=""&gt;8&lt;/SPAN&gt;&lt;/B&gt;&lt;SPAN en-us=""&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt; 
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN lang=ru&gt;Юзабилити&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Опция "Открывать подбор после пробития чека"&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Автооткрытие клавиатуры ввода (если возможно)&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Автоподстановка "Без сдачи" при оплате&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;/P&gt;&lt;/SPAN&gt;ЕГАИС&lt;BR&gt;&lt;SPAN lang=en-us&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - &lt;/SPAN&gt;Поддержка акцизных марок формата DataMatrix&lt;SPAN lang=en-us&gt;&lt;BR&gt;&lt;BR&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;BR&gt;&lt;/B&gt;&lt;/I&gt;&lt;SPAN lang=en-us&gt;•&lt;SPAN lang=ru&gt; Н&lt;/SPAN&gt;овый драйвер "Штрих-М:ККТ с передачей данных в ОФД (54-ФЗ)" версия 1.5.1&lt;BR&gt;•&lt;SPAN lang=ru&gt; Обновлен драйвер "ScanPort:Устройства ввода данных" версия 2.0.0.2&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Добавлена поддержка встроенных сканеров штрихкодов ТСД DataLogic и ТСД Zebra &lt;/SPAN&gt;&lt;BR&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.1&lt;SPAN lang=ru&gt;7&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;•&lt;/P&gt;&lt;/SPAN&gt;Обновлена версия мобильной платформы 1С:Предприятие 8.3.12.64&lt;BR&gt;&lt;BR&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;/B&gt;&lt;/I&gt;&lt;BR&gt;&lt;SPAN lang=en-us&gt;• &lt;SPAN en-us=""&gt;Обновлен драйвер "&lt;/SPAN&gt;АТОЛ:ККТ с передачей данных&lt;SPAN en-us=""&gt;" версия 9.12.&lt;SPAN lang=ru&gt;1&lt;/SPAN&gt;.6&lt;SPAN lang=ru&gt;232&lt;/SPAN&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;Добавлена поддержка моделей ККТ АТОЛ:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; АТОЛ Sigma 10 (АТОЛ 150Ф)&lt;BR&gt;•&lt;SPAN lang=ru&gt; &lt;/SPAN&gt;Обновлен драйвер "СКАНКОД:Cканер штрихкода Chipherlab (Native)" версия 1.0.0.14&lt;BR&gt;
+&lt;HR&gt;
+&lt;/HR&gt;&lt;SPAN lang=en-us&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.16.8&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Исправление ошибок&lt;/P&gt;&lt;/SPAN&gt;&lt;BR&gt;
+&lt;HR&gt;
+&lt;/HR&gt;&lt;SPAN lang=en-us&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.16.6&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Исправление ошибок&lt;/P&gt;&lt;/SPAN&gt;&lt;BR&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.16&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN lang=ru en-us=""&gt;Расчеты с клиентами (ФФД 1.0.5)&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Использование чеков продажи в рассрочку, предоплаты и постоплаты от покупателя&lt;BR&gt;&lt;/SPAN&gt;• &lt;SPAN lang=ru&gt;Синхронизация&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Загрузка предоплаты заказа&lt;/SPAN&gt;&lt;BR&gt;&lt;I&gt;&lt;B&gt;&lt;BR&gt;Подключаемое оборудование&lt;/B&gt;&lt;/I&gt;&lt;BR&gt;•&lt;SPAN lang=ru&gt; Новый драйвер &lt;/SPAN&gt;&lt;SPAN lang=en-us en-us=""&gt;"&lt;/SPAN&gt;&lt;/P&gt;&lt;/SPAN&gt;&lt;SPAN&gt;ScanPort:Устройства ввода данных&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN en-us=""&gt;" версия 2.0.0.0, &lt;/SPAN&gt;&lt;SPAN&gt;поддерживающий подключение оборудования:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;- DataLogic DL Axist&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Datalogic Scorpio X4&lt;SPAN lang=en-us&gt;&lt;BR&gt;• &lt;SPAN en-us=""&gt;Обновлен драйвер "&lt;/SPAN&gt;АТОЛ:ККТ с передачей данных&lt;SPAN en-us=""&gt;" версия 9.12.0.6112&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;/SPAN&gt;Добавлена поддержка моделей ККТ АТОЛ:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2&lt;SPAN lang=ru&gt;0Ф, 50Ф, &lt;/SPAN&gt;60Ф 
+&lt;HR&gt;
+&lt;/HR&gt;&lt;SPAN lang=en-us&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.15&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;SPAN lang=ru en-us=""&gt;Поиск заказов по части номера&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;Копирование номера телефона и адреса &lt;SPAN lang=en-us&gt;e-mail&lt;/SPAN&gt; из заказа в чек&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us en-us=""&gt;&lt;BR&gt;&lt;/SPAN&gt;&lt;I&gt;&lt;B&gt;&lt;BR&gt;Подключаемое оборудование&lt;/B&gt;&lt;/I&gt;&lt;BR&gt;• &lt;SPAN lang=ru&gt;Новый драйвер &lt;/SPAN&gt;&lt;SPAN lang=en-us en-us=""&gt;"Версия-Т:ККТ с передачей данных в ОФД&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;" версия 1.0.3, &lt;/SPAN&gt;поддерживающий подключение оборудования:&lt;SPAN en-us=""&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - ККТ с передачей данных "К1-Ф"&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;Тип подключения: LAN&lt;BR&gt;• &lt;SPAN en-us=""&gt;Обновлен драйвер "&lt;/SPAN&gt;АТОЛ:ККТ с передачей данных&lt;SPAN en-us=""&gt;" версия 9.12.0.6076&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.14&lt;/B&gt;&lt;SPAN lang=en-us&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• &lt;SPAN en-us=""&gt;Подключение&lt;/SPAN&gt; АТОЛ 15Ф (ФФД ККТ 1.0.5)&lt;SPAN en-us=""&gt;&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;SPAN en-us=""&gt;Использование ККТ:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Служебные операции: открытие и закрытие смены на ККТ&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Состояние ККТ&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Параметры ККТ (расширен список параметров)&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;Новый реквизит товара: &lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Секция&lt;BR&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;Поиск чека по QR-коду&lt;BR&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;Параметры печати:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Форматно-логический контроль&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Печать пречека&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - Шаблон наименования товара&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;BR&gt;&lt;/B&gt;&lt;/I&gt;&lt;SPAN en-us=""&gt;&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;SPAN en-us=""&gt;Обновлен драйвер &lt;/SPAN&gt;"1С:Сканер штрихкода" версия 1.0.3.2&lt;BR&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;Новый драйвер "СКАНКОД:Cканер штрихкода Chipherlab (Native)" версии 1.1&lt;BR&gt;&lt;SPAN lang=en-us&gt;• &lt;/SPAN&gt;&lt;SPAN en-us=""&gt;Обновлен драйвер "&lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;АТОЛ:ККТ с передачей данных&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;" версия 9.11.2.6032&lt;/SPAN&gt;&lt;SPAN lang=ru&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;FONT color=#b22222&gt;Рекомендации по настройке драйвера:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - при возникновении ошибки печати "Размер картинки слишком большой" необходимо изменить параметр "Масштаб штрихкода"&lt;/FONT&gt;&lt;/SPAN&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;FONT color=#b22222&gt;- &lt;SPAN lang=ru&gt;не устанавливать флаг "Печатать значение штрихкода"&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.&lt;SPAN lang=ru&gt;13&lt;/SPAN&gt;.&lt;SPAN en-us=""&gt;3&lt;/SPAN&gt;&lt;/B&gt;&lt;SPAN en-us=""&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Исправление ошибок&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P&gt;&lt;B&gt;Версия 2.13&lt;/B&gt;&lt;/P&gt;
+&lt;P&gt;• &lt;SPAN lang=ru&gt;Синхронизация&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN ru=""&gt;Поддержка обмена версии 2.3&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Использование единого файла для загрузки настроек, прайс-листа, заказов&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Выгрузка чеков с привязкой к заказу&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Выгрузка внесений и выемок наличных&lt;/SPAN&gt; &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Исправление ошибок&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Медленное первое открытие прайс-листа&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P&gt;&lt;B&gt;Версия 2.12&lt;/B&gt;&lt;/P&gt;
+&lt;P&gt;• &lt;SPAN lang=ru&gt;Синхронизация&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Загрузка заказов (формат обмена 2.2)&lt;/SPAN&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Исправление ошибок&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;SPAN lang=ru&gt;Неверные методы оплаты при возврате чека&lt;/SPAN&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P&gt;&lt;B&gt;Версия 2.11.5&lt;/B&gt;&lt;/P&gt;
+&lt;P&gt;• Исправление ошибок&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Возврат товаров по чеку закрытой смены&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Неверная ставка НДС при использовании "Без НДС"&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Неверная ссылка на описание приложения (Поддержка)&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.11&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;• Поддержка ФЗ-54 (ФФД 1.0) &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Чтение параметров ККТ. &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отчет о текущем состоянии расчетов. &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отправка электронного чека по &lt;SPAN lang=en-us&gt;E-MAIL &lt;/SPAN&gt;и/или&lt;SPAN lang=en-us&gt; SMS &lt;/SPAN&gt;средствами ККТ. &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Расширен список систем налогообложения: &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ОСН - Общая, УСН - Упрощенная (Доход), УСН - Упрощенная (Доход минус Расход), ЕНВД - Единый налог на вмененный доход, ЕСХН - Единый сельскохозяйственный налог, ПСН - Патентная. &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Расширен список ставок НДС: &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; НДС 18%, НДС 10%, НДС 0%, Без НДС. &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Изменен шаблон чека при печати на оборудовании типа "Принтер чеков" в соответствии с требованиями ФЗ-54.&lt;BR&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Сортировка прайс-листа по наименованию и цене.&lt;BR&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Исправление ошибок.&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=style3&gt;Подключаемое оборудование&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;• Новый тип подключаемого оборудования "ККТ с передачей данных"&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Новый драйвер ККТ &lt;SPAN lang=en-us&gt;"АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ) 9.x", поддерживающий подключение оборудования:&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; АТОЛ 11Ф, АТОЛ 15Ф, АТОЛ 22Ф, АТОЛ 25Ф, АТОЛ 30Ф, АТОЛ 52Ф, АТОЛ 55Ф, АТОЛ 77Ф.&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;• Новый драйвер&lt;SPAN lang=en-us&gt; &lt;/SPAN&gt;платежной системы &lt;SPAN lang=en-us&gt;"&lt;/SPAN&gt;2Can:Сервис приема платежей&lt;SPAN lang=en-us&gt;" (&lt;/SPAN&gt;переименован из "iboxPro: Поддержка mPos эквайринга"), поддерживающий подключение оборудования:&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;SPAN lang=en-us&gt;P15, P17.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;• Обновлен драйвер "1С:Принтер чеков" (2.0.5.2)&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Исправлена ошибка подключения на &lt;SPAN lang=en-us&gt;Android 6&lt;/SPAN&gt;.&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 5px"&gt;• Обновлен драйвер "RightScan:Устройства ввода данных ТСД Urovo”&lt;BR&gt;• Обновлен драйвер "RightScan:Устройство печати ТСД Urovo”&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.10&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;• Скидка на чек.&lt;BR&gt;• Виджет "Заказы клиентов".&lt;BR&gt;• Исправление ошибок. &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;/B&gt;&lt;/I&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;• Новый драйвер "1С:Сканер штрихкода", поддерживающий подключение &lt;SPAN lang=en-us&gt;bluetooth &lt;/SPAN&gt;сканеров.&lt;BR&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;При сканировании не требуется нажимать кнопку "Сканировать штрихкод".&lt;/SPAN&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.9&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;• Заказы клиентов&lt;BR&gt;• Исправление ошибок &lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;/B&gt;&lt;/I&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;• Новый драйвер платежной системы "iboxPro:Поддержка mPOS-эквайринга", поддерживающий подключение оборудования:&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Считыватель банковских карт "C15 (Chip&amp;amp;Sign)"&lt;BR&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;Тип подключения: TRS (mini-jack 3,5 мм).&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Эквайринговый терминал "P15 (Chip&amp;amp;PIN)"&lt;BR&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;Тип подключения: Bluetooth.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.8&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;• Интеграция с платежной системой (оплата платежными картами).&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;• Параметры синхронизации. Защищенный протокол &lt;SPAN lang=en-us&gt;HTTPS &lt;/SPAN&gt;при обмене через &lt;SPAN lang=en-us&gt;Web-&lt;/SPAN&gt;сервис.&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&lt;I&gt;&lt;B&gt;Подключаемое оборудование&lt;/B&gt;&lt;/I&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;• Добавлена поддержка нового типа оборудования "Платежная система".&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&lt;SPAN lang=en-us&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;Новый драйвер платежной системы "ИНПАС:Эквайринг-терминал", поддерживающий подключение оборудования:&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&lt;SPAN lang=en-us&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; VeriFone VX&lt;/SPAN&gt;820.&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&lt;SPAN lang=en-us&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Модельные ряды: VeriFone Evolution, PAX серий Dxxx, Sxx и Sxxx.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 5px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Тип подключения: LAN.&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;• Новый драйвер фискального регистратора "АТОЛ:Драйвер ККТ", поддерживающий подключение оборудования:&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FPrint-02К / ЕНВД&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FPrint-03К / ЕНВД&lt;BR&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;FPrint-88К / ЕНВД&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;FPrint-5200К / ЕНВД&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;FPrint-11ПТК / ЕНВД&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;FPrint-22ПТК / К / ЕНВД&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;FPrint-55ПТК / К / ЕНВД&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;FPrint-77ПТК / ЕНВД&lt;BR&gt;&lt;/SPAN&gt;&lt;SPAN en-us=""&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN lang=en-us&gt;FPrintPay-01ПТК / ЕНВД&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Тип подключения: USB, Bluetooth.&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.7&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Геолокация.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Определение местоположения пробития чека.&lt;BR&gt;• Отчеты.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Отправка на e-mail в формате PDF.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Варианты отчетов.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Печать на wi-fi принтере.&lt;BR&gt;• Учет по кассирам.&lt;BR&gt;• Печать должности на чеке ККМ (принтер чеков).&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.6.3&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Удален флаг "Выгружать продажи немаркируемой продукции в ЕГАИС"&lt;BR&gt;Подробнее: &lt;A href="http://egais.ru/news/view?id=1473"&gt;egais.ru/news/view?id=1473&lt;/A&gt;&lt;BR&gt;• Отправка номера чека и смены при подписи алкогольного чека ЕГАИС.&lt;BR&gt;• Исправление ошибок.&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.6.2&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Исправление ошибок.&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.6&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Отправка данных продажи алкогольной продукции в ЕГАИС (обязательно с 1 июля 2016).&lt;BR&gt;• Возможность установки высоты поля "Наименование" товара (удобно при длинных наименованиях).&lt;BR&gt;• Обновлен драйвер фискального регистратора 1С: Драйвер FPrint-11.&lt;BR&gt;• Возможность удаления видов оплаты.&lt;BR&gt;• Исправление ошибок.&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.5&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• ЕГАИС. Загрузка ответов-квитанций подтверждения или отказа от ТТН из ЕГАИС.&lt;BR&gt;• Удаление данных приложения.&lt;BR&gt;• Поддержка формата обмена 1С:ККМ-Offline версии 1.6.&lt;BR&gt;• Исправление ошибок.&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.4&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• ЕГАИС. Подтверждение поступления алкогольной продукции (товарно-транспортной накладной).&lt;BR&gt;• Исправление ошибок.&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.3&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;&lt;FONT color=#b22222&gt;Рекомендуется обновить драйверы подключаемого оборудования на мобильном устройстве.&lt;/FONT&gt;&lt;BR&gt;&lt;BR&gt;• Подключаемое оборудование&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Обновлены поставляемые драйверы:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1С: Драйвер FPrint-11&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1С: Принтер чеков&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1С: Устройство ввода&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Новый драйвер:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Сканкод: Сканер штрихкода Chipherlab&lt;BR&gt;• Повышено удобство работы при возврате товаров (сканирование штрихкода, подбор из прайс-листа, полный возврат).&lt;BR&gt;• Печать штрихкода на чеке ККМ продажи/возврата.&lt;BR&gt;• Поиск чека по номеру чека ККМ, штрихкоду, товару.&lt;BR&gt;• Печать этикеток и ценников на мобильном устройстве печати.&lt;BR&gt;• Печать информации по кассовой смене на принтере чеков при выполнении кассовых операций X и Z-отчет.&lt;BR&gt;• Импорт прайс-листа. Загрузка реквизитов алкогольной продукции.&lt;BR&gt;• Новый раздел "Поддержка"&lt;BR&gt;• Исправление ошибок&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.2&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Журнал продажи алкогольной продукции (автономный режим).&lt;BR&gt;• Повторная выгрузка отчетов о продажах (ККМ Offline).&lt;BR&gt;• Удаление товаров из прайс-листа (автономный режим).&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.1&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Импорт прайс-листа из файла (автономный режим).&lt;BR&gt;• Отображение групп при подборе товаров.&lt;BR&gt;• Добавление штрихкода в прайс-лист при сканировании (автономный режим).&lt;BR&gt;• Исправление ошибок.&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 2.0&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Новый интерфейс "Такси".&lt;BR&gt;• Подключение внешнего сканера.&lt;BR&gt;• Продажа товаров по произвольной цене.&lt;BR&gt;• Выбор товара при совпадении штрихкода.&lt;BR&gt;&lt;/P&gt;
+&lt;HR&gt;
+&lt;/HR&gt;
+&lt;P style="MARGIN-BOTTOM: 5px"&gt;&lt;B&gt;Версия 1.4&lt;/B&gt;&lt;/P&gt;
+&lt;P style="MARGIN-TOP: 0px"&gt;• Переработана форма подбора товаров. В шапке формы отображается количество позиций и сумма подобранных товаров.&lt;BR&gt;• Добавление товаров в избранное и установка фильтра по избранному при подборе товаров. &lt;BR&gt;• Поиск по артикулу в прайс-листе и форме подбора товаров.&lt;BR&gt;• Отчет по продажам за кассовую смену и произвольный период.&lt;BR&gt;• Отправка отчетов по e-mail.&lt;BR&gt;&lt;/P&gt;&lt;/BODY&gt;&lt;/HTML&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>

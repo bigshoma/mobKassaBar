@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88953a62-7a5d-4732-bde2-7f498c46f7dd">
+  <producedTypes>
+    <managerType typeId="9443a484-69d3-4ce8-9559-f5af28c2270d" valueTypeId="2a25d70b-9cbb-49bd-912c-f5bbbac3342f"/>
+    <valueManagerType typeId="fa843077-91c5-4dcf-9b7e-379ecac19057" valueTypeId="9cd1b453-ab1a-40c0-b921-fb8928123f60"/>
+    <valueKeyType typeId="ca4d748f-86e4-5829-b6d7-0033d43e6e71" valueTypeId="656a7ec2-ed5b-5845-8992-97a89858ae57"/>
+  </producedTypes>
+  <name>ИспользоватьОплатуПлатежнымиКартами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату платежными картами</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aecd5c7-a54b-42e8-9ba3-b8e105b38d8d">
+  <producedTypes>
+    <selectionType typeId="3276dff4-2de0-45b0-a96a-b71a890aa9db" valueTypeId="dc67004c-3795-4208-894d-a15d5fa9c969"/>
+    <listType typeId="5a2e4bd2-44cb-45d8-bf17-d84623e8df4a" valueTypeId="032f1d0c-bfa6-4481-a590-53ec82f4063f"/>
+    <managerType typeId="b12400e4-1959-471f-9e15-7114551af496" valueTypeId="728e098d-cda0-4a9b-9723-3a7f7252cf07"/>
+    <recordSetType typeId="b1a0adb2-326a-4dce-87de-31322565ae54" valueTypeId="5f640de3-2fa6-4467-aee4-7880fd0617f4"/>
+    <recordKeyType typeId="b920ad9c-c6b8-4daa-9689-f70b6bf2ee3d" valueTypeId="d74222b1-1a64-4630-a1bc-5aa2b41fa372"/>
+    <recordType typeId="98444393-98fe-4bd5-867b-2e8c89088fec" valueTypeId="0beaac5d-a08c-42dc-990b-5f527a2bc20f"/>
+    <recordManagerType typeId="e7c505a1-8809-499e-8666-62f01d8f087e" valueTypeId="df135bb7-e030-4be9-a49f-21cbcfaf5c11"/>
+  </producedTypes>
+  <name>ЗначениеНастроекПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение настроек пользователя</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="88edc7d3-e066-47a0-96b1-ab3401eb033a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1ef0af17-c4e8-4fbb-8673-1f300d930a7d">
+    <name>ЗначениеХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b63ec6e6-3458-4979-aa5a-074d87821c0d">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НастройкиПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

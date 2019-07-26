@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e9f25e7-2e74-44ac-b3b9-266084cc7e86">
+  <producedTypes>
+    <managerType typeId="157811a1-76be-45c3-9d03-9e6f021814d0" valueTypeId="5baf0f18-ca42-4347-9b14-d52dbeeedfff"/>
+    <valueManagerType typeId="04a9b0db-bded-4c05-b20f-c5884c983353" valueTypeId="695da1cd-ae85-4717-94d2-1ceed4f3f5b2"/>
+    <valueKeyType typeId="cbb81482-b8fd-58d4-9599-bcc84c66e679" valueTypeId="dc32f186-9093-5b04-87b3-98b47b6cd843"/>
+  </producedTypes>
+  <name>ФиксироватьКоординатыПробитияЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксировать координаты пробития чека</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

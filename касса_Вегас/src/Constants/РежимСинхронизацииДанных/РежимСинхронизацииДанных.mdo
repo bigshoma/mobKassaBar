@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daa82a1a-75ab-4450-ba13-8459a05f9fd6">
+  <producedTypes>
+    <managerType typeId="f60b832f-a951-4457-9b27-d3b2cd961ed5" valueTypeId="48e53de9-9652-4b26-a65b-dbe4a24bef83"/>
+    <valueManagerType typeId="c2bfd71d-b085-4768-ae35-6a40937333bb" valueTypeId="cbe944af-81a8-42cb-b6f6-49de86d65355"/>
+    <valueKeyType typeId="74a4d12c-abce-5ed6-addc-3e39bfa02947" valueTypeId="791ff2a5-90c5-5ea7-b304-e375b17d866e"/>
+  </producedTypes>
+  <name>РежимСинхронизацииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим синхронизации данных</value>
+  </synonym>
+  <type>
+    <types>EnumRef.РежимСинхронизацииДанных</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

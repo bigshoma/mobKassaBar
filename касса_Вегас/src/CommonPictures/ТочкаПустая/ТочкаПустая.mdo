@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="445d0c48-0b83-4b30-b893-cbf5fb3e9041">
+  <name>ТочкаПустая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точка пустая</value>
+  </synonym>
+</mdclass:CommonPicture>

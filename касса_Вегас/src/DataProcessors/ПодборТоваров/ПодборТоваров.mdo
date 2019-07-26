@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851779f0-08a7-4e6a-bdd0-90d026a5f46f">
+  <producedTypes>
+    <objectType typeId="5098dfe7-e76b-4623-b010-dd191046e4d1" valueTypeId="70381914-c072-47fe-9661-ca70c2004a81"/>
+    <managerType typeId="f9c27bcf-4d93-496c-b180-dbfbdf57fbd8" valueTypeId="e34134cb-c448-4763-9b38-82a9f53d58d1"/>
+  </producedTypes>
+  <name>ПодборТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="a49d4e35-7e67-4b74-8925-0fe9e9401eaa">
+    <name>ВводЦеныТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод цены товара</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c04aad59-7e38-4d2d-b119-9420ef82274a">
+    <name>КорзинаПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина подбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06995fd9-5232-4bc6-acb7-e6024d582148">
+    <name>ФормаПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

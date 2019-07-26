@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7b362fd-4759-4095-bcfe-44028e8972c2">
+  <producedTypes>
+    <managerType typeId="169a5644-90b9-4506-8b74-63ff623c730d" valueTypeId="77645ba8-03fa-4f7c-8591-01d886fd2b1d"/>
+    <valueManagerType typeId="2771724c-4670-40d6-b22b-628d2e6aacd2" valueTypeId="285ef42f-29f9-4546-8364-1e39d03dbcf2"/>
+    <valueKeyType typeId="5d33a995-1340-5de5-96ed-1b15ec5303d3" valueTypeId="bb3fa8fb-37ed-55df-a58e-9cf475bac2cb"/>
+  </producedTypes>
+  <name>ПарольЯндексРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль яндекс резервного копирования</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

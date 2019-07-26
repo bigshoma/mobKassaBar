@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;xs:schema xmlns:ns1="http://fsrar.ru/WEGAIS/ClientRef" xmlns:ns2="http://fsrar.ru/WEGAIS/ProductRef" xmlns:ns3="http://fsrar.ru/WEGAIS/Common" xmlns:tns="http://fsrar.ru/WEGAIS/TTNSingle" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://fsrar.ru/WEGAIS/TTNSingle" attributeFormDefault="unqualified" elementFormDefault="qualified"&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ClientRef"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/ProductRef"/&gt;
+	&lt;xs:import namespace="http://fsrar.ru/WEGAIS/Common"/&gt;
+	&lt;xs:complexType name="Доставка"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="TRAN_TYPE" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="50"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_COMPANY" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_CAR" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_TRAILER" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_CUSTOMER" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_DRIVER" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_LOADPOINT" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="2000"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_UNLOADPOINT" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="2000"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_REDIRECT" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="2000"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="TRAN_FORWARDER" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="255"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:choice&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="Содержимое"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Position" type="tns:СодержимоеЭлемент" maxOccurs="unbounded"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="СодержимоеЭлемент"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="Product" type="ns2:АлкогольнаяПродукция"/&gt;
+			&lt;xs:element name="Pack_ID" type="ns3:Строка50" minOccurs="0"/&gt;
+			&lt;xs:element name="Quantity" type="ns3:ЧислоПоложительное"/&gt;
+			&lt;xs:element name="Price" type="ns3:ЧислоНеотрицательное"/&gt;
+			&lt;xs:element name="Party" type="ns3:Строка50" minOccurs="0"/&gt;
+			&lt;xs:element name="Identity" type="ns3:Идентификатор"/&gt;
+			&lt;xs:element name="InformA" type="ns2:СправкаА"/&gt;
+			&lt;xs:element name="InformB" type="ns2:СправкаБ"/&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:choice&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:complexType name="ТТН"&gt;
+		&lt;xs:sequence&gt;
+			&lt;xs:element name="Identity" type="ns3:Идентификатор" minOccurs="0"/&gt;
+			&lt;xs:element name="Header" type="tns:Шапка"/&gt;
+			&lt;xs:element name="Content" type="tns:Содержимое"/&gt;
+		&lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;
+	&lt;xs:simpleType name="ТипыТТН"&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:enumeration value="WBReturnToMe"/&gt;
+			&lt;xs:enumeration value="WBInvoiceToMe"/&gt;
+			&lt;xs:enumeration value="WBReturnFromMe"/&gt;
+			&lt;xs:enumeration value="WBInvoiceFromMe"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:simpleType name="ТипыУпаковки"&gt;
+		&lt;xs:restriction base="xs:string"&gt;
+			&lt;xs:enumeration value="Packed"/&gt;
+			&lt;xs:enumeration value="Unpacked"/&gt;
+		&lt;/xs:restriction&gt;
+	&lt;/xs:simpleType&gt;
+	&lt;xs:complexType name="Шапка"&gt;
+		&lt;xs:choice&gt;
+			&lt;xs:element name="Type" type="tns:ТипыТТН"/&gt;
+			&lt;xs:element name="UnitType" type="tns:ТипыУпаковки"/&gt;
+			&lt;xs:element name="NUMBER" type="ns3:Строка50"/&gt;
+			&lt;xs:element name="Date" type="ns3:Дата"/&gt;
+			&lt;xs:element name="ShippingDate" type="ns3:Дата"/&gt;
+			&lt;xs:element name="Transport" type="tns:Доставка"/&gt;
+			&lt;xs:element name="Shipper" type="ns1:Организация"/&gt;
+			&lt;xs:element name="Consignee" type="ns1:Организация"/&gt;
+			&lt;xs:element name="Supplier" type="ns1:Организация" minOccurs="0"/&gt;
+			&lt;xs:element name="Base" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="200"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:element name="Note" minOccurs="0"&gt;
+				&lt;xs:simpleType&gt;
+					&lt;xs:restriction base="xs:string"&gt;
+						&lt;xs:maxLength value="200"/&gt;
+					&lt;/xs:restriction&gt;
+				&lt;/xs:simpleType&gt;
+			&lt;/xs:element&gt;
+			&lt;xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/&gt;
+		&lt;/xs:choice&gt;
+		&lt;xs:anyAttribute namespace="##any" processContents="lax"/&gt;
+	&lt;/xs:complexType&gt;
+&lt;/xs:schema&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>

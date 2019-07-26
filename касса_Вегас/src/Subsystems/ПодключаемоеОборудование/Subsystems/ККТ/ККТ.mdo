@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee72fbee-62b3-4924-80cb-0ef9c054341b">
+  <name>ККТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ККТ с передачей данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonTemplate.ДрайверВерсияТККТ54ФЗ</content>
+  <content>CommonTemplate.ДрайверШтрихМККТ54ФЗ</content>
+  <content>CommonTemplate.ДрайверАТОЛККТ54ФЗ10X</content>
+  <content>CommonTemplate.ДрайверАТОЛККТ54ФЗ9X</content>
+  <content>CommonTemplate.ДрайверАЗУРККТ54ФЗ</content>
+  <content>CommonTemplate.ДрайверRightScanККТ54ФЗ</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

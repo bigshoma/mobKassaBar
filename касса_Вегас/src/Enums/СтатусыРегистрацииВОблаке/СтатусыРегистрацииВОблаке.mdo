@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2716441f-73a6-4cac-9b89-975c36eee688">
+  <producedTypes>
+    <refType typeId="8362ae06-1e18-4c81-aa3e-2f00a4f9db68" valueTypeId="46261bec-89fe-497e-a8b2-71db29299c6e"/>
+    <listType typeId="bf746cd7-c08b-4279-a7e2-6ef46e645920" valueTypeId="78144e30-2fb7-40ff-8da3-1bb358da466a"/>
+    <managerType typeId="ba7c5a9c-2b52-4220-a789-559ecde1eb11" valueTypeId="5baeff6e-3703-432c-8ba3-2f12daa4d56a"/>
+  </producedTypes>
+  <name>СтатусыРегистрацииВОблаке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы регистрации в облаке</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d64ed0cf-41d7-4056-9423-524647889e26">
+    <name>ЗарегистрированВСервисе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирован в сервисе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1533da7-788a-43b2-a0ef-a3e287cc6f9c">
+    <name>ОтправленыДанныеВСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлены данные в сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="443ec1f5-209b-4f5a-bf97-90398b6d988e">
+    <name>РегистрацияЗавершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация завершена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cac37147-7abf-4a4b-89d7-d8a8dc8fc261">
+    <name>ОткрытМастер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыт мастер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

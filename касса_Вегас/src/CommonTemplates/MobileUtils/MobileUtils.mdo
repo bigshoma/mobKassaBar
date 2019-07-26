@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e162e3e2-2f6c-49e4-9ec9-2c5a9c94e141">
+  <name>MobileUtils</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile utils</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

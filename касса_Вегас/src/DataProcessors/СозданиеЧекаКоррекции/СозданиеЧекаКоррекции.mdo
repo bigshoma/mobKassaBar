@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8082685-c271-41b8-a63b-6da3fdfd2950">
+  <producedTypes>
+    <objectType typeId="c83ce049-d4ef-49ae-b333-4016b6bee9eb" valueTypeId="c0c36fbe-97c8-43f5-98e8-03413e2e1ed1"/>
+    <managerType typeId="e59713b1-bde1-4dcc-a99f-6d619730e816" valueTypeId="762c3da8-1b5e-43e7-ba2a-86c7ef0a4350"/>
+  </producedTypes>
+  <name>СозданиеЧекаКоррекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание чека коррекции</value>
+  </synonym>
+  <defaultForm>DataProcessor.СозданиеЧекаКоррекции.Form.СозданиеЧекаКоррекции</defaultForm>
+  <forms uuid="9157baba-8f32-4157-bb3f-57bf97877b07">
+    <name>СозданиеЧекаКоррекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание чека коррекции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4e3c23eb-d3bb-44d2-8e85-43f002060918">
+    <name>СозданиеЧекаКоррекции1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание чека коррекции1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

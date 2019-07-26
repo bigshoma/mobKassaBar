@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc9a8099-f465-48aa-8f8d-fe95b6db13b7">
+  <producedTypes>
+    <selectionType typeId="2486cadd-3f87-4dba-9727-553b1a8eedae" valueTypeId="8ef9154e-645f-44a8-a0be-adf1d6295cbf"/>
+    <listType typeId="edf8fbf2-8eb2-4c87-8c07-fd33327d8899" valueTypeId="9e6ba877-401d-4de0-9103-02ec5aae2f0b"/>
+    <managerType typeId="6eaf1ff6-85c5-465e-a2c5-540aa22b0ef4" valueTypeId="ef24e198-0378-4674-9af2-b1adcb1d441a"/>
+    <recordSetType typeId="351a3f17-8564-40fd-9b27-8e056e507d25" valueTypeId="a5eb2914-c112-404f-abe2-a580e77d4f72"/>
+    <recordKeyType typeId="8b46300f-d26e-4078-a426-bb0bb7760eba" valueTypeId="81cf1e03-07a2-493a-88e7-c77ffd57c065"/>
+    <recordType typeId="db34e90e-34cb-4471-b30d-02c97847cd9f" valueTypeId="623fe381-446f-47c8-a6bb-7785ec638de8"/>
+    <recordManagerType typeId="ed696bc6-03d7-4b01-bed4-b4c34c129deb" valueTypeId="dbcfba15-b96f-4d72-a65c-c1d2afa559be"/>
+  </producedTypes>
+  <name>УдалитьЦеныНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить цены номенклатуры</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="de172904-1324-4696-8194-bdba3ad99f3a">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Назначается для основной единицы измерения номенклатурной позиции в разрезе партнера в основной валюте.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3ab4472d-7b66-4ef8-b69e-ecea6bbe6c63">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

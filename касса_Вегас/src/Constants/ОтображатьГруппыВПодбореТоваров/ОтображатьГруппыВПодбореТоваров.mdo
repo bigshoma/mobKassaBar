@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dab2382-67c5-4ddb-a12e-91a2a2c4c4f0">
+  <producedTypes>
+    <managerType typeId="27982c86-202d-4788-989d-99f3233c1ef0" valueTypeId="a8a3efd7-f16b-41da-9666-42fbbcb74233"/>
+    <valueManagerType typeId="88ed1495-b9b5-4a7c-9e66-3a8f99d3daa9" valueTypeId="36f72265-18ca-4a06-88b6-d94ef2407bb4"/>
+    <valueKeyType typeId="fa6cbc60-8671-51c7-9472-fb37a4262da4" valueTypeId="c5b3bf94-c3d7-5f8e-a0b4-4e70f7ae0863"/>
+  </producedTypes>
+  <name>ОтображатьГруппыВПодбореТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать группы в подборе товаров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

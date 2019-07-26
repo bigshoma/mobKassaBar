@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88a695c6-974c-401c-b327-b98387ae524f">
+  <name>УстройствоВвода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Устройство ввода</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonTemplate.Драйвер1СУстройствоВвода</content>
+  <content>CommonTemplate.ДрайверRightScanУстройстваВвода</content>
+  <content>CommonTemplate.ДрайверСканкодСканерШтрихкода</content>
+  <content>CommonTemplate.ДрайверScanPortУстройстваВвода</content>
+  <content>CommonTemplate.Драйвер1ССканерШтрихкода</content>
+  <content>1274ae55-2dd5-42f8-a0e0-2401b4bbf72b</content>
+  <content>CommonTemplate.ДрайверСканситиУстройстваВвода</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

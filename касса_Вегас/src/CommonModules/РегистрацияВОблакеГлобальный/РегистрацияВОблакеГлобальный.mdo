@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8163cf30-0817-4cc8-b263-d78ea480d1ac">
+  <name>РегистрацияВОблакеГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

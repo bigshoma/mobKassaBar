@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aefa5af5-a611-47b9-8a3c-33939ab02e79">
+  <producedTypes>
+    <objectType typeId="588153b9-67d0-4faf-bedf-ddc0a59565f7" valueTypeId="c716d1b5-879f-40eb-a5e5-a482d67c22bf"/>
+    <managerType typeId="914dc83b-578a-4b0e-a876-ada2a4e0751e" valueTypeId="4aecbadb-8824-4c89-8f16-337a87ecb50a"/>
+  </producedTypes>
+  <name>ПанельМеню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель меню</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельМеню.Form.Настройки</defaultForm>
+  <forms uuid="953d704a-b924-4b39-9933-1e47b7f995ab">
+    <name>ЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕГАИС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92f863b5-4341-4d47-9595-bd1a7217de1f">
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2aadaefc-b212-42e1-ac92-f46b90227bdd">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d99b303f-4b7c-4d9b-a46c-61aceae2082f">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d09f314-3786-414d-820d-cda30ea9d59e">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5394bdcd-7c59-427e-a1c9-17c28f37ecd1">
+    <name>Отчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5553ae64-1f14-4d5c-a464-65af1f90ce1b">
+    <name>ПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4187368-a1d5-4fe9-83aa-f53f3a666079">
+    <name>Чеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чеки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="288fdda2-dfa0-411b-a872-080fa9984c8c">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

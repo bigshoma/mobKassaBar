@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="593eea4b-77c0-4735-a457-a4a7688dfeaa">
+  <producedTypes>
+    <managerType typeId="88373902-c467-4268-a1d5-b0fbb6f02aa3" valueTypeId="c127e1f6-30c0-4693-803e-51a528630a62"/>
+    <valueManagerType typeId="ec2af4c1-2d3d-45bc-98d4-82e893bfb7ab" valueTypeId="a8f79f24-c0d4-4216-aa6a-0f528da82a9d"/>
+    <valueKeyType typeId="34c7e19f-1540-5d57-8c00-5d2567c5e787" valueTypeId="dc3738cb-9813-5404-ae40-192e87e9f3bf"/>
+  </producedTypes>
+  <name>ОткрыватьПодборПослеПробитияЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открывать подбор после пробития чека</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

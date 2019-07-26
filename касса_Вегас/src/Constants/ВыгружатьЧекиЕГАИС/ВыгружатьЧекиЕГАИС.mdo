@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fd064b2-c10e-47c1-b164-3d5a315f9586">
+  <producedTypes>
+    <managerType typeId="f0a92cad-8e64-422f-bc6e-1a92295e12e8" valueTypeId="9cb30823-2ea2-4149-86e9-f34509099ff2"/>
+    <valueManagerType typeId="ecec4581-c075-4d7e-9ae0-fe2880c93bf5" valueTypeId="100b099c-13d9-4a0b-901c-cb390aedb2f3"/>
+    <valueKeyType typeId="108f5871-8924-511b-9a47-bcf9ebfd59bc" valueTypeId="f1a615d3-b9b8-5a2e-84c7-83644045a2a1"/>
+  </producedTypes>
+  <name>ВыгружатьЧекиЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгружать чеки ЕГАИС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

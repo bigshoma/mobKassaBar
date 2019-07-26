@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05750397-b480-429e-82a6-64cb8e2b889f">
+  <producedTypes>
+    <managerType typeId="dbcafc82-d921-47e2-88f3-2c0faebc49c8" valueTypeId="a2dd7dd5-39bf-436b-a059-1d33765bc4d6"/>
+    <valueManagerType typeId="05939c4b-e634-496c-9b2c-5e2fc0bb1a58" valueTypeId="b457264a-d1f9-4e0d-8f0b-7233e8c3170d"/>
+    <valueKeyType typeId="3581a7b0-07a6-539c-93b2-61cf2b035fc6" valueTypeId="5fb7eea8-d782-55af-880f-8c241c7b9302"/>
+  </producedTypes>
+  <name>РегистрацияВОблакеПароль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке пароль</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

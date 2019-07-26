@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04c00162-c83a-4c66-a6e5-1967321b1734">
+  <name>РегистрацияВОблаке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация в облаке</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.РегистрацияВОблаке</content>
+  <content>Enum.СтатусыРегистрацииВОблаке</content>
+  <content>CommonModule.РегистрацияВОблакеКлиент</content>
+  <content>Constant.РегистрацияВОблакеНомерОбласти</content>
+  <content>Constant.РегистрацияВОблакеНомерТелефона</content>
+  <content>Constant.РегистрацияВОблакеEmail</content>
+  <content>Constant.РегистрацияВОблакеИмяПользователя</content>
+  <content>Constant.РегистрацияВОблакеПароль</content>
+  <content>Constant.РегистрацияВОблакеСтатус</content>
+  <content>CommonModule.РегистрацияВОблакеКлиентСерверПовтИсп</content>
+  <content>CommonModule.РегистрацияВОблакеВызовСервера</content>
+  <content>87a87ad5-5896-4e93-9116-c39ea95bc44a</content>
+</mdclass:Subsystem>

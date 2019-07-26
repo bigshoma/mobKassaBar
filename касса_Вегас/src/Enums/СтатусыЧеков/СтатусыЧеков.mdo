@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76495b91-67d8-441c-b004-5212cc4fad68">
+  <producedTypes>
+    <refType typeId="ef1949f6-daa7-4eab-a5ec-1d3fa54a6190" valueTypeId="7e96edcf-2e07-4d6a-98d5-ece1e9ca17c0"/>
+    <listType typeId="10d4fa72-1827-40f3-bb6f-f3da1cc8d659" valueTypeId="c53c9a7e-07a6-4a17-bb49-4c223eb2023a"/>
+    <managerType typeId="bf4dfdb5-d3df-44d3-b68a-d6c7911906d6" valueTypeId="2d33e9b4-0abe-48e1-bedf-430b59159eaf"/>
+  </producedTypes>
+  <name>СтатусыЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы чеков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e0d14754-9f7f-4c8e-a1da-44356449ff50">
+    <name>Отложен</name>
+    <synonym>
+      <key>ru</key>
+      <value>сохранен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70896b65-5c54-4511-b0d2-9991d1823463">
+    <name>Аннулирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>аннулирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79f4e070-14b9-40d3-9a1a-5fbe4b873dc7">
+    <name>Пробит</name>
+    <synonym>
+      <key>ru</key>
+      <value>пробит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f52cf363-4b1a-423c-b646-3ef1c9ffe33e">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>архивный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

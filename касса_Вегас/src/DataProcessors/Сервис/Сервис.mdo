@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7ef94dc-f34a-47ac-bc49-b5b608b713b6">
+  <producedTypes>
+    <objectType typeId="f50c862d-7fa8-4d66-91df-16065cc3c6a7" valueTypeId="778537a1-1e5d-4b2f-923e-a6fabfab2e9b"/>
+    <managerType typeId="75dd1418-8df2-4c02-b32c-ac35c4f266a6" valueTypeId="ab917823-db1e-4498-850b-bc2c853016e7"/>
+  </producedTypes>
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <defaultForm>DataProcessor.Сервис.Form.СверкаИтоговПоПлатежнойСистеме</defaultForm>
+  <forms uuid="d53ea5fd-65c3-4384-b9c6-78a85449ef69">
+    <name>ЗагрузкаИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервные копии</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="21a94bd6-2bd6-476b-b3a1-31ff7154b9a9">
+    <name>ИмпортПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс-листа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71a89a29-8b7e-47e3-a4dc-14eec2e4a0ce">
+    <name>ИмпортПрайсЛистаДанныеЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс-листа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="04339f68-817e-4287-bc28-fec014f6dff6">
+    <name>ИнформацияОВыгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о выгрузке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1076067e-5618-4505-83e6-d3249b369b39">
+    <name>МусорнаяКорзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мусорная корзина</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ba9c05e1-ad6b-41ae-a32e-44d5bf009ac2">
+    <name>ПечатьЭтикетокЦенников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать этикеток ценников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fb63cf1e-46b3-4982-a320-02dfe9a95bc1">
+    <name>ПечатьЭтикетокЦенниковРедактированиеСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать этикеток ценников редактирование строки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f0e6d0b-68cd-46f1-92c0-fa8117443c8b">
+    <name>СверкаИтоговПоПлатежнойСистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка итогов по платежной системе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39936b66-2a03-45fc-8908-e72be65fb888">
+    <name>Синхронизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a2d044c-74dc-4ac4-9b2c-18e0a3166ae1">
+    <name>УдалениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

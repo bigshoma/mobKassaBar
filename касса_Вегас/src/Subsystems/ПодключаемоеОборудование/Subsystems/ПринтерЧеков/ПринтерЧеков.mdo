@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a94434f5-2d82-40c6-98e4-e0652397f0c7">
+  <name>ПринтерЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принтер чеков</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonTemplate.ДрайверRightScanУстройствоПечати</content>
+  <content>CommonTemplate.Драйвер1СПринтерЧеков</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>
